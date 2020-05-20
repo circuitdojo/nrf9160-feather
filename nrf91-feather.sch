@@ -2937,7 +2937,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCB" urn="urn:adsk.eagle:component:10610062/7" prefix="PCB" library_version="93" library_locally_modified="yes">
+<deviceset name="PCB" urn="urn:adsk.eagle:component:10610062/7" locally_modified="yes" prefix="PCB" library_version="94" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PLACEHOLDER" x="0" y="0"/>
 </gates>
@@ -2958,6 +2958,9 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </technology>
 <technology name="-DREAMSTAR-MAINBOARD">
 <attribute name="MPN" value="BRD-C-0005" constant="no"/>
+</technology>
+<technology name="-NRF91-FEATHER">
+<attribute name="MPN" value="BRD-0015" constant="no"/>
 </technology>
 <technology name="-PS-AIR-QUALITY-WING-TESTER-BASE">
 <attribute name="MPN" value="BRD-0013" constant="no"/>
@@ -3168,7 +3171,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES" urn="urn:adsk.eagle:component:5807375/17" prefix="R" library_version="94">
+<deviceset name="RES" urn="urn:adsk.eagle:component:5807375/17" locally_modified="yes" prefix="R" library_version="94" library_locally_modified="yes">
 <description>RESISTOR</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -3473,7 +3476,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="VALUE" value="309k"/>
 </technology>
 <technology name="-330-5%">
-<attribute name="DESC" value="" constant="no"/>
+<attribute name="DESC" value="RES SMD 330 OHM 5% 1/16W 0402" constant="no"/>
 <attribute name="DIGIKEYPN" value="311-330JRCT-ND"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-07330RL"/>
@@ -3640,7 +3643,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP" urn="urn:adsk.eagle:component:7419954/16" prefix="C" library_version="94">
+<deviceset name="CAP" urn="urn:adsk.eagle:component:7419954/16" locally_modified="yes" prefix="C" library_version="94" library_locally_modified="yes">
 <description>CAPACITOR</description>
 <gates>
 <gate name="A" symbol="CAPV" x="0" y="0" swaplevel="1"/>
@@ -3674,7 +3677,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="VOLTHIGH" value="50V" constant="no"/>
 </technology>
 <technology name="-100P-50V">
-<attribute name="DESC" value="" constant="no"/>
+<attribute name="DESC" value="CAP CER 100PF 50V C0G/NPO 0402" constant="no"/>
 <attribute name="DIGIKEYPN" value="311-1024-1-ND" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="CC0402JRNPO9BN101" constant="no"/>
@@ -3701,7 +3704,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="VOLTHIGH" value="50V" constant="no"/>
 </technology>
 <technology name="-1U-25V">
-<attribute name="DESC" value="" constant="no"/>
+<attribute name="DESC" value="CAP CER 1UF 25V X5R 0402" constant="no"/>
 <attribute name="DIGIKEYPN" value="587-3245-1-ND"/>
 <attribute name="MF" value="Taiyo Yuden"/>
 <attribute name="MPN" value="TMK105BJ105MV-F"/>
@@ -3724,6 +3727,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="DESC" value="CAP CER 0.1UF 50V X7R 0603" constant="no"/>
 <attribute name="DIGIKEYPN" value="1276-1000-1-ND" constant="no"/>
 <attribute name="MPN" value="CL10B104KB8NNNC" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="VALUE" value="0.1u" constant="no"/>
 <attribute name="VOLTHIGH" value="50V" constant="no"/>
 </technology>
@@ -3731,6 +3736,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="DESC" value="CAP CER 10000PF 50V X7R 0603" constant="no"/>
 <attribute name="DIGIKEYPN" value="311-1085-1-ND" constant="no"/>
 <attribute name="MPN" value="CC0603KRX7R9BB103" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="VALUE" value="10n" constant="no"/>
 <attribute name="VOLTHIGH" value="50v" constant="no"/>
 </technology>
@@ -3738,6 +3745,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603" constant="no"/>
 <attribute name="DIGIKEYPN" value="587-5869-1-ND" constant="no"/>
 <attribute name="MPN" value="JMK107ABJ106MA-T" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="VALUE" value="10u" constant="no"/>
 <attribute name="VOLTHIGH" value="6.3" constant="no"/>
 </technology>
@@ -3745,6 +3754,8 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="DESC" value="CAP CER 12PF 50V C0G/NP0 0603"/>
 <attribute name="DIGIKEYPN" value="1276-1254-1-ND"/>
 <attribute name="MPN" value="CL10C120JB8NNNC"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="VALUE" value="12P"/>
 <attribute name="VOLTHIGH" value="50V"/>
 </technology>
@@ -3752,10 +3763,22 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="DESC" value="CAP CER 1UF 10V X5R 0603" constant="no"/>
 <attribute name="DIGIKEYPN" value="311-1443-1-ND" constant="no"/>
 <attribute name="MPN" value="CC0603KRX5R6BB105" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="VALUE" value="1u" constant="no"/>
 <attribute name="VOLTHIGH" value="10V" constant="no"/>
 </technology>
+<technology name="-2.2U-10V-01">
+<attribute name="DESC" value="CAP CER 2.2UF 10V X7R 0603" constant="no"/>
+<attribute name="DIGIKEYPN" value="490-4520-1-ND" constant="no"/>
+<attribute name="MPN" value="GRM188R71A225KE15D" constant="no"/>
+<attribute name="TEMPHIGH" value="125" constant="no"/>
+<attribute name="TEMPLOW" value="-55" constant="no"/>
+<attribute name="VALUE" value="2.2u" constant="no"/>
+<attribute name="VOLTHIGH" value="10V" constant="no"/>
+</technology>
 <technology name="-2.2U-10V-02">
+<attribute name="DESC" value="" constant="no"/>
 <attribute name="DIGIKEYPN" value="1276-1040-2-ND"/>
 <attribute name="MPN" value="CL10A225KP8NNNC"/>
 <attribute name="TEMPHIGH" value="85"/>
@@ -3764,12 +3787,22 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="VOLTHIGH" value="16V"/>
 </technology>
 <technology name="-4.7U-10V">
+<attribute name="DESC" value="CAP CER 4.7UF 10V X5R 0603" constant="no"/>
 <attribute name="DIGIKEYPN" value="1276-6684-1-ND"/>
 <attribute name="MPN" value="CL10A475MP5LNNC"/>
 <attribute name="TEMPHIGH" value="85"/>
 <attribute name="TEMPLOW" value="-55"/>
 <attribute name="VALUE" value="4.7u" constant="no"/>
 <attribute name="VOLTHIGH" value="10V"/>
+</technology>
+<technology name="-4.7U-6.3V">
+<attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" constant="no"/>
+<attribute name="DIGIKEYPN" value="1276-2087-1-ND" constant="no"/>
+<attribute name="MPN" value="CL10B475KQ8NQNC" constant="no"/>
+<attribute name="TEMPHIGH" value="125" constant="no"/>
+<attribute name="TEMPLOW" value="-55" constant="no"/>
+<attribute name="VALUE" value="4.7u" constant="no"/>
+<attribute name="VOLTHIGH" value="6.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3904,7 +3937,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/10" prefix="D" library_version="93" library_locally_modified="yes">
+<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/10" locally_modified="yes" prefix="D" library_version="94" library_locally_modified="yes">
 <description>DIODE SCHOTTKY 40V 3A MINI2</description>
 <gates>
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
@@ -3925,6 +3958,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="VENDOR" value="Panasonic Electronic Components" constant="no"/>
 </technology>
 <technology name="-3A-01">
+<attribute name="DESC" value="DIODE (RECTIFIER FRD) 60V-VR 3A-" constant="no"/>
 <attribute name="DIGIKEYPN" value="RBR3MM60BTFCT-ND" constant="no"/>
 <attribute name="MPN" value="RBR3MM60BTFTR" constant="no"/>
 <attribute name="VENDOR" value="Rhom Semiconductor" constant="no"/>
@@ -3933,7 +3967,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND-1.5U-1.4A-2X2" urn="urn:adsk.eagle:component:5807350/4" prefix="L" library_version="94">
+<deviceset name="IND-1.5U-1.4A-2X2" urn="urn:adsk.eagle:component:5807350/4" locally_modified="yes" prefix="L" library_version="94" library_locally_modified="yes">
 <description>FIXED IND 1.5UH 1.4A 120 MOHM</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -3950,6 +3984,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="CURRENT" value="1.4A"/>
+<attribute name="DESC" value="FIXED IND 1.5UH 1.4A 120 MOHM"/>
 <attribute name="DIGIKEYPN" value="587-4702-1-ND"/>
 <attribute name="MPN" value="NRV2012T1R5NGF"/>
 <attribute name="VALUE" value="1.5u"/>
@@ -4096,7 +4131,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOD-NRF9160-SICA-R" urn="urn:adsk.eagle:component:19415245/2" prefix="U" library_version="94">
+<deviceset name="MOD-NRF9160-SICA-R" urn="urn:adsk.eagle:component:19415245/2" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
 <description>NRF9160-SICA-R</description>
 <gates>
 <gate name="G$1" symbol="NRF9160-SICA-R" x="0" y="0"/>
@@ -4168,6 +4203,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESC" value="IC RF TXRX+MCU CELL LTE-M/NB-IOT"/>
 <attribute name="DIGIKEYPN" value="1490-1076-1-ND"/>
 <attribute name="MF" value="Nordic Semiconductor"/>
 <attribute name="MPN" value="NRF9160-SICA-R"/>
@@ -4176,7 +4212,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="104224-0820" urn="urn:adsk.eagle:component:19415246/2" prefix="J" library_version="94">
+<deviceset name="104224-0820" urn="urn:adsk.eagle:component:19415246/2" prefix="J" library_version="94" library_locally_modified="yes">
 <description>Conn SIM SKT 6 POS 2.54mm Solder RA SMD</description>
 <gates>
 <gate name="G$1" symbol="104224-0820" x="0" y="0"/>
@@ -4196,10 +4232,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESC" value="NANOSIM SOCKET 1.11H P/PULL TYPE"/>
 <attribute name="DESCRIPTION" value=" 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold "/>
 <attribute name="MF" value="Molex"/>
-<attribute name="MP" value="104224-0820"/>
+<attribute name="MPN" value="104224-0820"/>
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="None"/>
 </technology>
@@ -4283,7 +4319,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-USB" urn="urn:adsk.eagle:component:20031022/1" prefix="J" library_version="94">
+<deviceset name="CON-USB" urn="urn:adsk.eagle:component:20031022/1" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
 <description>Conn.; Data; USB; Recept.; Micro; B Type; Bottom Mount, SMT, with Solder Tabs, Lead-Free</description>
 <gates>
 <gate name="G$1" symbol="1050170001" x="0" y="0"/>
@@ -4304,7 +4340,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Conn.; Data; USB; Recept.; Micro; B Type; Bottom Mount, SMT, with Solder Tabs, Lead-Free "/>
+<attribute name="DESC" value="CONN RCPT USB2.0 MICRO B SMD R/A"/>
 <attribute name="DIGIKEYPN" value="WM1399CT-ND" constant="no"/>
 <attribute name="MF" value="Molex, LLC"/>
 <attribute name="MPN" value="1050170001"/>
@@ -4390,7 +4426,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-STBC08PMR" urn="urn:adsk.eagle:component:19415251/2" prefix="U" library_version="94">
+<deviceset name="IC-STBC08PMR" urn="urn:adsk.eagle:component:19415251/2" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
 <description>STBC08 Series 6.5 V Single Standalone Linear Li-Ion Battery Charger - DFN-6</description>
 <gates>
 <gate name="G$1" symbol="STBC08PMR" x="0" y="0"/>
@@ -4411,6 +4447,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESC" value="IC BATT CHRGR LI-ION 800MA DFN6"/>
 <attribute name="DIGIKEYPN" value="497-5808-1-ND"/>
 <attribute name="MF" value="STMicroelectronics"/>
 <attribute name="MPN" value="STBC08PMR"/>
@@ -4467,7 +4504,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-0002" urn="urn:adsk.eagle:component:5807424/4" prefix="J" library_version="88" library_locally_modified="yes">
+<deviceset name="CON-0002" urn="urn:adsk.eagle:component:5807424/4" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
 <description>&lt;p&gt;CONN TAG CONNECT PROG&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CON-TC2030-MCP-NL" x="0" y="0"/>
@@ -4486,12 +4523,15 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:5807306/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESC" value="TC2030-MCP-NL" constant="no"/>
+<attribute name="MPN" value="TC2030-MCP-NL" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-S2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:19415252/2" prefix="J" library_version="94">
+<deviceset name="CON-S2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:19415252/2" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
 <description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header</description>
 <gates>
 <gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
@@ -4508,15 +4548,16 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESC" value="CONN HEADER SMD R/A 2POS 2MM"/>
 <attribute name="DIGIKEYPN" value="455-1749-1-ND"/>
 <attribute name="MF" value="JST Sales"/>
-<attribute name="MPN" value="S2B-PH-SM4-TB_LF__SN_"/>
+<attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-N" urn="urn:adsk.eagle:component:19061993/4" prefix="Q" library_version="94">
+<deviceset name="MOSFET-N" urn="urn:adsk.eagle:component:19061993/4" locally_modified="yes" prefix="Q" library_version="94" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="MOSFET-N" x="-2.54" y="0"/>
 </gates>
@@ -4532,6 +4573,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DESC" value="MOSFET N-CH 20V 0.2A EMT3" constant="no"/>
 <attribute name="DIGIKEYPN" value="RE1C002UNTCLCT-ND" constant="no"/>
 <attribute name="MF" value="Rohm Semiconductor" constant="no"/>
 <attribute name="MPN" value="RE1C002UNTCL" constant="no"/>
@@ -4719,7 +4761,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="XTAL-ABS07AIG-32.768KHZ-7-T" urn="urn:adsk.eagle:component:13629287/3" prefix="Y" library_version="89" library_locally_modified="yes">
+<deviceset name="XTAL-ABS07AIG-32.768KHZ-7-T" urn="urn:adsk.eagle:component:13629287/3" locally_modified="yes" prefix="Y" library_version="94" library_locally_modified="yes">
 <description>ABS07 Series 32.768 kHz ±20 ppm 12.5 pF -40 to +85 C SMT Low Profile Crystal</description>
 <gates>
 <gate name="G$1" symbol="ABS07AIG-32.768KHZ-7-T" x="0" y="0"/>
@@ -4735,7 +4777,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESC" value=" Crystal 32.768khz 7pf Smd "/>
+<attribute name="DESC" value="CRYSTAL 32.768KHZ 7PF SMD"/>
 <attribute name="DIGIKEYPN" value="535-13350-1-ND" constant="no"/>
 <attribute name="MF" value="Abracon"/>
 <attribute name="MPN" value="ABS07AIG-32.768KHZ-7-T"/>
@@ -4834,6 +4876,35 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="DIGIKEYPN" value="TCR3UM30ALFCT-ND" constant="no"/>
 <attribute name="MF" value="Toshiba Semiconductor and Storage" constant="no"/>
 <attribute name="MPN" value="TCR3UM30A,LF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER" urn="urn:adsk.eagle:component:15352579/2" locally_modified="yes" prefix="SOLDER" library_version="94" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="PLACEHOLDER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PLACEHOLDER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10610054/3"/>
+</package3dinstances>
+<technologies>
+<technology name="-PASTE-REFRIG-15G-01">
+<attribute name="DESC" value="" constant="no"/>
+<attribute name="MPN" value="4902P-15G" constant="no"/>
+<attribute name="MQTY" value="150" constant="no"/>
+</technology>
+<technology name="-PASTE-ROOM-TEMP-15G">
+<attribute name="DESC" value="THERMALLY STABLE SOLDER PASTE NO" constant="no"/>
+<attribute name="MPN" value="TS391SNL50" constant="no"/>
+<attribute name="MQTY" value="150" constant="no"/>
+</technology>
+<technology name="-PASTE-ROOM-TEMP-50G">
+<attribute name="DESC" value="THERMALLY STABLE SOLDER PASTE NO" constant="no"/>
+<attribute name="MPN" value="TS391SNL50" constant="no"/>
+<attribute name="MQTY" value="150" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4938,7 +5009,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="COMPANY" value="Circuit Dojo"/>
 <attribute name="DOC_NUMBER" value="SCH-0015"/>
 <attribute name="DOC_REV" value="1"/>
-<attribute name="TITLE" value="nRF91 Featherwing"/>
+<attribute name="PN" value="PS-NRF91-FEATHER"/>
+<attribute name="TITLE" value="nRF91 Feather"/>
 </attributes>
 <variantdefs>
 <variantdef name="Production"/>
@@ -4950,16 +5022,24 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="U$34" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3"/>
-<part name="U$35" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3" override_package3d_urn="urn:adsk.eagle:package:19416091/2" override_package_urn="urn:adsk.eagle:footprint:19416092/1" override_locally_modified="yes"/>
-<part name="U$31" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOUNTING-HOLE" device="-2.5MM-PLATED" package3d_urn="urn:adsk.eagle:package:19416410/2"/>
-<part name="U$32" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOUNTING-HOLE" device="-2.5MM-PLATED" package3d_urn="urn:adsk.eagle:package:19416410/2"/>
+<part name="U$34" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3">
+<variant name="Production" populate="no"/>
+</part>
+<part name="U$35" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3" override_package3d_urn="urn:adsk.eagle:package:19416091/2" override_package_urn="urn:adsk.eagle:footprint:19416092/1" override_locally_modified="yes">
+<variant name="Production" populate="no"/>
+</part>
+<part name="U$31" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOUNTING-HOLE" device="-2.5MM-PLATED" package3d_urn="urn:adsk.eagle:package:19416410/2">
+<variant name="Production" populate="no"/>
+</part>
+<part name="U$32" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOUNTING-HOLE" device="-2.5MM-PLATED" package3d_urn="urn:adsk.eagle:package:19416410/2">
+<variant name="Production" populate="no"/>
+</part>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="P+6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
 <part name="FRAME2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DOCFIELD" device=""/>
-<part name="PCB1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="PCB" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-SARA-R410-02B" value="PCB-SARA-R410-02B"/>
+<part name="PCB1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="PCB" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-NRF91-FEATHER" value="PCB-NRF91-FEATHER"/>
 <part name="J2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-HEADER-1X12" device="-MALE-PIN" package3d_urn="urn:adsk.eagle:package:19627133/4" value="CON-HEADER-1X12-MALE-PIN">
 <variant name="Production" populate="no"/>
 </part>
@@ -5012,8 +5092,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-10V" value="4.7u"/>
-<part name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-10V" value="4.7u"/>
+<part name="C3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
+<part name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
 <part name="C9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0805" package3d_urn="urn:adsk.eagle:package:5807330/6" technology="-47U-6.3V" value="47u"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5029,7 +5109,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-330-5%" value="330"/>
-<part name="C10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-10V" value="4.7u"/>
+<part name="C10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-TPS6303" device="" package3d_urn="urn:adsk.eagle:package:19061977/3" technology="1DSKR"/>
 <part name="P+14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
@@ -5046,7 +5126,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V" value="1u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-DUAL-COMP" device="-VMT6" package3d_urn="urn:adsk.eagle:package:19415244/3"/>
-<part name="J9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-0002" device="" package3d_urn="urn:adsk.eagle:package:5807306/4" override_package3d_urn="urn:adsk.eagle:package:5807306/5" override_package_urn="urn:adsk.eagle:footprint:5807295/3"/>
+<part name="J9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-0002" device="" package3d_urn="urn:adsk.eagle:package:5807306/4" override_package3d_urn="urn:adsk.eagle:package:5807306/5" override_package_urn="urn:adsk.eagle:footprint:5807295/3">
+<variant name="Production" populate="no"/>
+</part>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-S2B-PH-SM4-TB(LF)(SN)" device="" package3d_urn="urn:adsk.eagle:package:19415242/2" override_package3d_urn="urn:adsk.eagle:package:19415993/2" override_package_urn="urn:adsk.eagle:footprint:19415233/1" override_locally_modified="yes"/>
@@ -5056,20 +5138,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3" override_package3d_urn="urn:adsk.eagle:package:19416091/2" override_package_urn="urn:adsk.eagle:footprint:19416092/1" override_locally_modified="yes"/>
-<part name="U$4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3"/>
+<part name="U$3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3" override_package3d_urn="urn:adsk.eagle:package:19416091/2" override_package_urn="urn:adsk.eagle:footprint:19416092/1" override_locally_modified="yes">
+<variant name="Production" populate="no"/>
+</part>
+<part name="U$4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FIDUCIAL" device="-1MM" package3d_urn="urn:adsk.eagle:package:19416411/3">
+<variant name="Production" populate="no"/>
+</part>
 <part name="U2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-CP2102N-A02-GQFN20R" device="" package3d_urn="urn:adsk.eagle:package:20030971/1" override_package3d_urn="urn:adsk.eagle:package:19889845/2" override_package_urn="urn:adsk.eagle:footprint:19889846/1" override_locally_modified="yes"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
-<part name="C13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-10V" value="4.7u"/>
+<part name="C13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-0.1U-50V" value="0.1u"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-10V" value="4.7u"/>
+<part name="C15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-0.1U-50V" value="0.1u"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1K-1%" value="1k"/>
+<part name="R4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1K-5%" value="1k"/>
 <part name="P+18" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="P+19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="R5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-100K-1%" value="100k"/>
@@ -5119,6 +5205,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V" value="1u"/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SOLDER1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="SOLDER" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-PASTE-ROOM-TEMP-50G">
+<attribute name="MQTY" value="150"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5478,6 +5567,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U9" gate="G$2" x="60.96" y="198.12" smashed="yes">
 <attribute name="NAME" x="59.436" y="202.311" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.436" y="192.151" size="1.778" layer="96"/>
+</instance>
+<instance part="SOLDER1" gate="G$1" x="15.24" y="25.4" smashed="yes">
+<attribute name="NAME" x="10.16" y="17.78" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
