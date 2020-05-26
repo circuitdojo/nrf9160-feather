@@ -5208,6 +5208,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SOLDER1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="SOLDER" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-PASTE-ROOM-TEMP-50G">
 <attribute name="MQTY" value="150"/>
 </part>
+<part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
+<part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5571,6 +5573,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SOLDER1" gate="G$1" x="15.24" y="25.4" smashed="yes">
 <attribute name="NAME" x="10.16" y="17.78" size="1.778" layer="95"/>
 </instance>
+<instance part="R19" gate="G$1" x="86.36" y="177.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="87.8586" y="173.99" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="83.058" y="172.72" size="1.778" layer="96" rot="MR90"/>
+<attribute name="TOLERANCE" x="80.518" y="173.482" size="1.778" layer="97" rot="MR90"/>
+<attribute name="POWER" x="77.978" y="173.482" size="1.778" layer="97" rot="MR90"/>
+</instance>
+<instance part="GND46" gate="1" x="86.36" y="170.18" smashed="yes">
+<attribute name="VALUE" x="83.82" y="167.64" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5701,6 +5712,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="114.3" y1="101.6" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="GND46" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="P0.12/MD" class="0">
@@ -5870,9 +5885,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="182.88" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
 <label x="73.66" y="182.88" size="1.9304" layer="95"/>
 <pinref part="Q5" gate="A" pin="G"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
+<junction x="86.36" y="182.88"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
