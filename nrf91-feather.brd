@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="24" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="32" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="13" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="14" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,10 +47,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -167,7 +167,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXltZTU0MDk" projecturn="a.YnVzaW5lc3M6bXltZTU0MDkjMjAyMDA0MjEyODkzNjE1MjY" f3durn="urn:adsk.wipprod:dm.lineage:yVcgM9npTweP5tYcMMLeSg" pcbguid="6feb9ee9-7477-462d-871f-acf1def8d386" lastpulledtime="" lastsyncedchangeguid="1f6f723c-2413-fe99-075d-400901045e3f"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXltZTU0MDk" projecturn="a.YnVzaW5lc3M6bXltZTU0MDkjMjAyMDA0MjEyODkzNjE1MjY" f3durn="urn:adsk.wipprod:dm.lineage:yVcgM9npTweP5tYcMMLeSg" pcbguid="6feb9ee9-7477-462d-871f-acf1def8d386" lastpulledtime="" lastsyncedchangeguid="5f636944-2efb-767f-eae7-a2a6f221501d"/>
 <plain>
 <wire x1="2.54" y1="0" x2="48.26" y2="0" width="0" layer="20"/>
 <wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="0" layer="20" curve="90"/>
@@ -194,8 +194,8 @@
 <text x="18.923" y="3.048" size="1.016" layer="22" ratio="12" rot="SMR270" align="center">A1</text>
 <text x="16.51" y="3.175" size="1.016" layer="22" ratio="12" rot="SMR270" align="center">A0</text>
 <text x="31.496" y="3.556" size="1.016" layer="22" ratio="12" rot="SMR270" align="center">SCK</text>
-<text x="34.036" y="3.683" size="0.889" layer="22" ratio="12" rot="SMR270" align="center">MOSI</text>
-<text x="36.449" y="3.683" size="0.889" layer="22" ratio="12" rot="SMR270" align="center">MISO</text>
+<text x="34.036" y="3.683" size="0.889" layer="22" ratio="12" rot="SMR270" align="center">COPI</text>
+<text x="36.449" y="3.683" size="0.889" layer="22" ratio="12" rot="SMR270" align="center">CIPO</text>
 <text x="39.243" y="2.794" size="1.016" layer="22" ratio="12" rot="MR180" align="center">RX</text>
 <text x="41.91" y="2.794" size="1.016" layer="22" ratio="12" rot="MR180" align="center">TX</text>
 <text x="13.843" y="3.048" size="1.016" layer="22" ratio="12" rot="SMR0" align="center">GND</text>
@@ -1526,7 +1526,7 @@ chip</description>
 <rectangle x1="-0.6" y1="-0.345" x2="-0.3" y2="0.345" layer="51"/>
 <rectangle x1="0.3" y1="-0.345" x2="0.6" y2="0.345" layer="51"/>
 </package>
-<package name="TE_1909763-1" urn="urn:adsk.eagle:footprint:19061957/3" library_version="94">
+<package name="TE_1909763-1" urn="urn:adsk.eagle:footprint:19061957/3" locally_modified="yes" library_version="94" library_locally_modified="yes">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
@@ -2600,7 +2600,7 @@ chip</description>
 <packageinstance name="IND0402_22N_TAI"/>
 </packageinstances>
 </package3d>
-<package3d name="TE_1909763-1" urn="urn:adsk.eagle:package:19061976/4" type="model" library_version="94">
+<package3d name="TE_1909763-1" urn="urn:adsk.eagle:package:19061976/4" type="model" library_version="94" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TE_1909763-1"/>
 </packageinstances>
@@ -2983,10 +2983,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="" x="6.35" y="1.27" locked="yes" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.8038" y="0.7988" locked="yes" size="0.6096" layer="25" ratio="10"/>
 </element>
-<element name="Q3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="SOT23" package3d_urn="urn:adsk.eagle:package:5807332/5" value="MOSFET-P-30V-4.3A-SOT23" x="15.6" y="15.55" smashed="yes">
-<attribute name="DESC" value="MOSFET P-CH 30V 4.3A SOT23" x="10.7" y="17.3" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEYPN" value="DMP3056L-7DICT-ND" x="10.7" y="17.3" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMP3056L-7" x="10.7" y="17.3" size="1.778" layer="27" display="off"/>
+<element name="Q3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="SOT23" package3d_urn="urn:adsk.eagle:package:5807332/5" value="MOSFET-P-20V-4.7A-SOT23" x="15.6" y="15.55" smashed="yes">
+<attribute name="DESC" value="MOSFET P-CHANNEL 20V 4.7A SOT23" x="10.7" y="17.3" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEYPN" value="TSM500P02CXRFGCT-ND" x="10.7" y="17.3" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TSM500P02CX RFG" x="10.7" y="17.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="13.845" y="13.395" size="0.6096" layer="25" rot="R90"/>
 <attribute name="NAME" x="15.6" y="15.55" size="0.2" layer="51" align="center"/>
 </element>
@@ -3120,8 +3120,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="48.0411" y="9.748990625" size="0.6096" layer="25" ratio="6" rot="SR0"/>
 <attribute name="NAME" x="48.1" y="8.65" size="0.2" layer="51" rot="R180" align="center"/>
 </element>
-<element name="J4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="TE_1909763-1" package3d_urn="urn:adsk.eagle:package:19061976/4" value="1909763-1" x="47.55" y="6" smashed="yes" rot="R180">
-<attribute name="DESC" value=" Conn Coaxial PL 50Ohm Solder ST SMD Gold Over Nickel T/R " x="52.85" y="-29.5" size="0.8128" layer="27" rot="R180" display="off"/>
+<element name="J4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="TE_1909763-1" package3d_urn="urn:adsk.eagle:package:19061976/4" value="CON-1909763-1" x="47.55" y="6" smashed="yes" rot="R180">
+<attribute name="DESC" value="CONN UMCC JACK STR 50OHM SMD" x="52.85" y="-29.5" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEYPN" value="A118077CT-ND" x="52.85" y="-29.5" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="52.85" y="-29.5" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1909763-1" x="52.85" y="-29.5" size="0.8128" layer="27" rot="R180" display="off"/>
@@ -3136,7 +3136,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="35.9" y="11.43" size="0.2" layer="51" align="center"/>
 <attribute name="NAME" x="34.48" y="17.23" size="0.6096" layer="25"/>
 </element>
-<element name="J5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="MOLEX_104224-0820" package3d_urn="urn:adsk.eagle:package:19415237/3" value="104224-0820" x="6.4" y="11.43" smashed="yes" rot="MR90">
+<element name="J5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="MOLEX_104224-0820" package3d_urn="urn:adsk.eagle:package:19415237/3" value="CON-SIM-104224-0820" x="6.4" y="11.43" smashed="yes" rot="MR90">
 <attribute name="DESC" value="NANOSIM SOCKET 1.11H P/PULL TYPE" x="6.4" y="11.43" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold " x="2.2" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="2.2" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
@@ -3179,8 +3179,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0805" package3d_urn="urn:adsk.eagle:package:5807330/6" value="47u" x="26.45" y="8.65" smashed="yes" rot="R270">
 <attribute name="DESC" value="CAP CER 47UF 6.3V X5R 0805" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEYPN" value="587-1779-1-ND" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="JMK212BJ476MG-T" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEYPN" value="‎399-5506-1-ND‎" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0805C476M9PACTU‎" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="26.45" y="8.65" size="0.2" layer="51" ratio="6" align="center"/>
 <attribute name="NAME" x="27.684" y="5.461" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VOLTHIGH" value="6.3V" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
@@ -3290,9 +3290,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="CAPC1005X55N" package3d_urn="urn:adsk.eagle:package:7419912/5" value="1u" x="18.2" y="13.4" smashed="yes" rot="R90">
 <attribute name="DESC" value="CAP CER 1UF 25V X5R 0402" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEYPN" value="587-3245-1-ND" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Taiyo Yuden" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TMK105BJ105MV-F" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEYPN" value="445-9081-1-ND" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TDK" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C1005X5R1E105M050BC" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="18.2" y="13.4" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="18.7034375" y="14.897421875" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VOLTHIGH" value="25V" x="18.2" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3431,8 +3431,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POWER" value="1/16W" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="TE_1909763-1" package3d_urn="urn:adsk.eagle:package:19061976/4" value="1909763-1" x="48.2" y="16.9" smashed="yes">
-<attribute name="DESC" value=" Conn Coaxial PL 50Ohm Solder ST SMD Gold Over Nickel T/R " x="43.2" y="22.5" size="1.778" layer="27" display="off"/>
+<element name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="TE_1909763-1" package3d_urn="urn:adsk.eagle:package:19061976/4" value="CON-1909763-1" x="48.2" y="16.9" smashed="yes">
+<attribute name="DESC" value="CONN UMCC JACK STR 50OHM SMD" x="43.2" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEYPN" value="A118077CT-ND" x="43.2" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="43.2" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1909763-1" x="43.2" y="22.5" size="1.778" layer="27" display="off"/>
@@ -4517,14 +4517,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.35" y1="17.05" x2="34.35" y2="17.65" width="0.1524" layer="16"/>
 <wire x1="31.35" y1="17.4" x2="31.9318" y2="16.8182" width="0.1524" layer="16"/>
 </signal>
-<signal name="P0.21/MOSI">
+<signal name="P0.21/COPI">
 <contactref element="J3" pad="12"/>
 <contactref element="U1" pad="37"/>
 <wire x1="36.25" y1="6.335" x2="36.3" y2="6.38" width="0.1524" layer="1"/>
 <wire x1="36.3" y1="3.28" x2="34.29" y2="1.27" width="0.1524" layer="1"/>
 <wire x1="36.3" y1="6.38" x2="36.3" y2="3.28" width="0.1524" layer="1"/>
 </signal>
-<signal name="P0.22/MISO">
+<signal name="P0.22/CIPO">
 <contactref element="J3" pad="13"/>
 <contactref element="U1" pad="38"/>
 <wire x1="36.75" y1="6.335" x2="36.75" y2="1.35" width="0.1524" layer="1"/>
@@ -5209,7 +5209,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.550403125" y1="14.030015625" x2="45.146834375" y2="13.93" width="0.3" layer="1" curve="-49.454663"/>
 <wire x1="45.146834375" y1="13.93" x2="43.845" y2="13.93" width="0.3" layer="1"/>
 </signal>
-<signal name="LNA_EN">
+<signal name="COEX0/LNA_EN">
 <contactref element="U1" pad="93"/>
 <wire x1="33.25" y1="16.525" x2="33.25" y2="15.45" width="0.1524" layer="1"/>
 <wire x1="33.25" y1="15.45" x2="33.4" y2="15.45" width="0.1524" layer="1"/>

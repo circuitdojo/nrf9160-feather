@@ -598,7 +598,7 @@ chip</description>
 <text x="-0.9666" y="0.665" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="0" y="0" size="0.2" layer="51" align="center">&gt;NAME</text>
 </package>
-<package name="TE_1909763-1" urn="urn:adsk.eagle:footprint:19061957/3" library_version="94">
+<package name="TE_1909763-1" urn="urn:adsk.eagle:footprint:19061957/3" locally_modified="yes" library_version="94" library_locally_modified="yes">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
@@ -2073,7 +2073,7 @@ chip</description>
 <packageinstance name="IND_TAIYO_LBMF1608"/>
 </packageinstances>
 </package3d>
-<package3d name="TE_1909763-1" urn="urn:adsk.eagle:package:19061976/4" type="model" library_version="94">
+<package3d name="TE_1909763-1" urn="urn:adsk.eagle:package:19061976/4" type="model" library_version="94" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TE_1909763-1"/>
 </packageinstances>
@@ -3766,6 +3766,14 @@ chip</description>
 <attribute name="VALUE" value="1u" constant="no"/>
 <attribute name="VOLTHIGH" value="25V" constant="no"/>
 </technology>
+<technology name="-1U-25V-1">
+<attribute name="DESC" value="CAP CER 1UF 25V X5R 0402" constant="no"/>
+<attribute name="DIGIKEYPN" value="445-9081-1-ND" constant="no"/>
+<attribute name="MF" value="TDK" constant="no"/>
+<attribute name="MPN" value="C1005X5R1E105M050BC" constant="no"/>
+<attribute name="VALUE" value="1u" constant="no"/>
+<attribute name="VOLTHIGH" value="25V" constant="no"/>
+</technology>
 <technology name="-56PF-50V">
 <attribute name="DESC" value="CAP CER 56PF 50V C0G/NP0 0402" constant="no"/>
 <attribute name="DIGIKEYPN" value="399-1020-1-ND‎" constant="no"/>
@@ -3916,6 +3924,13 @@ chip</description>
 <attribute name="DESC" value="CAP CER 47UF 6.3V X5R 0805" constant="no"/>
 <attribute name="DIGIKEYPN" value="587-1779-1-ND" constant="no"/>
 <attribute name="MPN" value="JMK212BJ476MG-T" constant="no"/>
+<attribute name="VALUE" value="47u" constant="no"/>
+<attribute name="VOLTHIGH" value="6.3V" constant="no"/>
+</technology>
+<technology name="-47U-6.3V-1">
+<attribute name="DESC" value="CAP CER 47UF 6.3V X5R 0805" constant="no"/>
+<attribute name="DIGIKEYPN" value="‎399-5506-1-ND‎" constant="no"/>
+<attribute name="MPN" value="C0805C476M9PACTU‎" constant="no"/>
 <attribute name="VALUE" value="47u" constant="no"/>
 <attribute name="VOLTHIGH" value="6.3V" constant="no"/>
 </technology>
@@ -4181,7 +4196,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1909763-1" urn="urn:adsk.eagle:component:19061994/3" prefix="J" library_version="94">
+<deviceset name="CON-1909763-1" urn="urn:adsk.eagle:component:19061994/3" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
 <description>VAO ITEM, MINI RF HEADER</description>
 <gates>
 <gate name="G$1" symbol="1909763-1" x="0" y="0"/>
@@ -4197,7 +4212,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESC" value=" Conn Coaxial PL 50Ohm Solder ST SMD Gold Over Nickel T/R "/>
+<attribute name="DESC" value="CONN UMCC JACK STR 50OHM SMD"/>
 <attribute name="DIGIKEYPN" value="A118077CT-ND"/>
 <attribute name="MF" value="TE Connectivity"/>
 <attribute name="MPN" value="1909763-1"/>
@@ -4287,7 +4302,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="104224-0820" urn="urn:adsk.eagle:component:19415246/2" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-SIM" urn="urn:adsk.eagle:component:19415246/2" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
 <description>Conn SIM SKT 6 POS 2.54mm Solder RA SMD</description>
 <gates>
 <gate name="G$1" symbol="104224-0820" x="0" y="0"/>
@@ -4306,7 +4321,7 @@ chip</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:19415237/3"/>
 </package3dinstances>
 <technologies>
-<technology name="">
+<technology name="-104224-0820">
 <attribute name="DESC" value="NANOSIM SOCKET 1.11H P/PULL TYPE"/>
 <attribute name="DESCRIPTION" value=" 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold "/>
 <attribute name="MF" value="Molex"/>
@@ -5156,7 +5171,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="P+28" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="P+29" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
-<part name="Q3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-P" device="-SOT23" package3d_urn="urn:adsk.eagle:package:5807332/5" technology="-30V-4.3A" value="MOSFET-P-30V-4.3A-SOT23"/>
+<part name="Q3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-P" device="-SOT23" package3d_urn="urn:adsk.eagle:package:5807332/5" technology="-20V-4.7A" value="MOSFET-P-20V-4.7A-SOT23"/>
 <part name="P+1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="D1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DIO-SCHOTTKY" device="" package3d_urn="urn:adsk.eagle:package:7658662/7" technology="-3A-01" value="DIO-SCHOTTKY-3A-01"/>
 <part name="P+2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
@@ -5192,17 +5207,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-15P-50V" value="15p"/>
 <part name="L1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="-0402" package3d_urn="urn:adsk.eagle:package:7419905/4" technology="-39NH-250MA" value="39n"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
+<part name="J4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOD-NRF9160-SICA-R" device="" package3d_urn="urn:adsk.eagle:package:19415236/5"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="104224-0820" device="" package3d_urn="urn:adsk.eagle:package:19415237/3"/>
+<part name="J5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-SIM" device="" package3d_urn="urn:adsk.eagle:package:19415237/3" technology="-104224-0820"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-1M-5%" value="1M"/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
 <part name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/6" technology="-4.7U-6.3V" value="4.7u"/>
-<part name="C9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0805" package3d_urn="urn:adsk.eagle:package:5807330/6" technology="-47U-6.3V" value="47u"/>
+<part name="C9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0805" package3d_urn="urn:adsk.eagle:package:5807330/6" technology="-47U-6.3V-1" value="47u"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5231,7 +5246,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-330-5%" value="330"/>
 <part name="D4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:15730988/4" override_package3d_urn="urn:adsk.eagle:package:19417028/3" override_package_urn="urn:adsk.eagle:footprint:15730962/2" override_locally_modified="yes" technology="-ORANGE" value="LED-ORANGE-0402"/>
-<part name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V" value="1u"/>
+<part name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V-1" value="1u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-DUAL-COMP" device="-VMT6" package3d_urn="urn:adsk.eagle:package:19415244/3"/>
 <part name="J9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-0002" device="" package3d_urn="urn:adsk.eagle:package:5807306/4" override_package3d_urn="urn:adsk.eagle:package:5807306/5" override_package_urn="urn:adsk.eagle:footprint:5807295/3">
@@ -5272,7 +5287,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-22.1K-1%" value="22.1k"/>
 <part name="R16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-47.5K-1%" value="47.5k"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
+<part name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="-0402" package3d_urn="urn:adsk.eagle:package:7419905/4" technology="-68NH-200MA" value="68n"/>
 <part name="C12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-56PF-50V" value="56p"/>
@@ -6097,7 +6112,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="210.82" y1="25.4" x2="210.82" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P0.21/MOSI" class="0">
+<net name="P0.21/COPI" class="0">
 <segment>
 <wire x1="355.6" y1="193.04" x2="340.36" y2="193.04" width="0.1524" layer="91"/>
 <label x="340.36" y="193.04" size="1.778" layer="95"/>
@@ -6105,7 +6120,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="340.36" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="P0.22/MISO" class="0">
+<net name="P0.22/CIPO" class="0">
 <segment>
 <wire x1="340.36" y1="190.5" x2="355.6" y2="190.5" width="0.1524" layer="91"/>
 <label x="340.36" y="190.5" size="1.778" layer="95"/>
@@ -6599,14 +6614,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="99.441" y="222.504" size="1.778" layer="96" rot="MR90"/>
 <attribute name="VOLTHIGH" x="96.901" y="222.504" size="1.778" layer="97" rot="MR90"/>
 </instance>
-<instance part="R1" gate="G$1" x="30.48" y="193.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.9814" y="189.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.782" y="187.96" size="1.778" layer="96" rot="R90"/>
-<attribute name="TOLERANCE" x="36.322" y="188.722" size="1.778" layer="97" rot="R90"/>
-<attribute name="POWER" x="38.862" y="188.722" size="1.778" layer="97" rot="R90"/>
+<instance part="R1" gate="G$1" x="25.4" y="193.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.9014" y="189.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="28.702" y="187.96" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="31.242" y="188.722" size="1.778" layer="97" rot="R90"/>
+<attribute name="POWER" x="33.782" y="188.722" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="GND43" gate="1" x="30.48" y="185.42" smashed="yes">
-<attribute name="VALUE" x="27.94" y="182.88" size="1.778" layer="96"/>
+<instance part="GND43" gate="1" x="25.4" y="185.42" smashed="yes">
+<attribute name="VALUE" x="22.86" y="182.88" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="33.02" y="226.06" smashed="yes">
 <attribute name="VALUE" x="30.48" y="228.6" size="1.778" layer="96"/>
@@ -7120,7 +7135,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U1" gate="G$1" pin="P0.24/TRACEDATA2"/>
 </segment>
 </net>
-<net name="P0.22/MISO" class="0">
+<net name="P0.22/CIPO" class="0">
 <segment>
 <wire x1="251.46" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
 <label x="251.46" y="157.48" size="1.778" layer="95" rot="MR0"/>
@@ -7128,7 +7143,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U1" gate="G$1" pin="P0.22/TRACEDATA0"/>
 </segment>
 </net>
-<net name="P0.21/MOSI" class="0">
+<net name="P0.21/COPI" class="0">
 <segment>
 <wire x1="223.52" y1="160.02" x2="251.46" y2="160.02" width="0.1524" layer="91"/>
 <label x="251.46" y="160.02" size="1.778" layer="95" rot="MR0"/>
@@ -7243,19 +7258,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C12" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="LNA_EN" class="0">
+<net name="COEX0/LNA_EN" class="0">
 <segment>
 <wire x1="223.52" y1="182.88" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
 <label x="248.92" y="182.88" size="1.9304" layer="95" rot="MR0"/>
 <pinref part="U1" gate="G$1" pin="COEX0"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="200.66" x2="30.48" y2="200.66" width="0.1524" layer="91"/>
-<label x="20.32" y="200.66" size="1.9304" layer="95"/>
+<wire x1="15.24" y1="200.66" x2="25.4" y2="200.66" width="0.1524" layer="91"/>
+<label x="15.24" y="200.66" size="1.9304" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="200.66" x2="38.1" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="198.12" x2="30.48" y2="200.66" width="0.1524" layer="91"/>
-<junction x="30.48" y="200.66"/>
+<wire x1="25.4" y1="200.66" x2="38.1" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="198.12" x2="25.4" y2="200.66" width="0.1524" layer="91"/>
+<junction x="25.4" y="200.66"/>
 <pinref part="U4" gate="G$1" pin="EN"/>
 </segment>
 </net>
