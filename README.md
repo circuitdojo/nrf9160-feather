@@ -1,4 +1,4 @@
-# Circuit Dojo - nRf9160 Feather Hardware Files
+# Circuit Dojo - nRF9160 Feather Hardware Files
 
 ![nRF9160 Feather](img/nrf91-feather-v31-headers.png)
 
