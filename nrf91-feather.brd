@@ -3,13 +3,13 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="24" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="32" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="14" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="13" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,10 +47,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -4273,8 +4273,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="DIODE (RECTIFIER FRD) 60V-VR 3A-" x="8.36" y="10.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEYPN" value="RBR3MM60BTFCT-ND" x="8.36" y="10.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RBR3MM60BTFTR" x="8.36" y="10.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="9.26" y="10.25" size="0.2" layer="51" rot="R270" align="center"/>
 <attribute name="NAME" x="6" y="9.61" size="0.6096" layer="25" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="9.26" y="10.25" size="0.2" layer="51" rot="R270" align="center"/>
 <attribute name="VENDOR" value="Rhom Semiconductor" x="8.36" y="10.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="IND-2P0X2P0X1P2" package3d_urn="urn:adsk.eagle:package:5807324/5" value="1.5u" x="12.1" y="10.2" smashed="yes">
@@ -4289,8 +4289,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603" x="14.65" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEYPN" value="587-5869-1-ND" x="14.65" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="JMK107ABJ106MA-T" x="14.65" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="14.362" y="5.889" size="0.6096" layer="25" rot="R270"/>
 <attribute name="NAME" x="14.65" y="7.2" size="0.2" layer="51" ratio="6" align="center"/>
+<attribute name="NAME" x="14.362" y="5.889" size="0.6096" layer="25" rot="R270"/>
 <attribute name="TEMPHIGH" value="" x="14.65" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPLOW" value="" x="14.65" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTHIGH" value="6.3" x="14.65" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
@@ -4299,8 +4299,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603" x="16.4" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEYPN" value="587-5869-1-ND" x="16.4" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="JMK107ABJ106MA-T" x="16.4" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.688" y="4.811" size="0.6096" layer="25" rot="R90"/>
 <attribute name="NAME" x="16.4" y="7.2" size="0.2" layer="51" ratio="6" align="center"/>
+<attribute name="NAME" x="16.688" y="4.811" size="0.6096" layer="25" rot="R90"/>
 <attribute name="TEMPHIGH" value="" x="16.4" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPLOW" value="" x="16.4" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTHIGH" value="6.3" x="16.4" y="7.2" size="0.8128" layer="27" rot="R270" display="off"/>
@@ -4309,8 +4309,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="CAP CER 10UF 6.3V X5R 0603" x="9.7" y="7.6" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEYPN" value="587-5869-1-ND" x="9.7" y="7.6" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="JMK107ABJ106MA-T" x="9.7" y="7.6" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8.688" y="7.661" size="0.6096" layer="25" rot="R90"/>
 <attribute name="NAME" x="9.7" y="7.6" size="0.2" layer="51" ratio="6" align="center"/>
+<attribute name="NAME" x="8.688" y="7.661" size="0.6096" layer="25" rot="R90"/>
 <attribute name="TEMPHIGH" value="" x="9.7" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPLOW" value="" x="9.7" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTHIGH" value="6.3" x="9.7" y="7.6" size="0.8128" layer="27" rot="R270" display="off"/>
@@ -4328,8 +4328,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="DIODE (RECTIFIER FRD) 60V-VR 3A-" x="8.36" y="12.14" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEYPN" value="RBR3MM60BTFCT-ND" x="8.36" y="12.14" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RBR3MM60BTFTR" x="8.36" y="12.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.035" y="11.5094" size="0.6096" layer="25" ratio="6" rot="SR90"/>
 <attribute name="NAME" x="9.26" y="12.14" size="0.2" layer="51" rot="R270" align="center"/>
+<attribute name="NAME" x="6.035" y="11.5094" size="0.6096" layer="25" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="Rhom Semiconductor" x="8.36" y="12.14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="R0402-M" package3d_urn="urn:adsk.eagle:package:19061974/2" value="100k" x="5.3" y="4.25" smashed="yes" rot="R270">
@@ -4337,8 +4337,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="5.3" y="4.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="5.3" y="4.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="5.3" y="4.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.4" y="1.6" size="0.6096" layer="25" rot="R90"/>
 <attribute name="NAME" x="5.3" y="4.25" size="0.2" layer="51" rot="R270" align="center"/>
+<attribute name="NAME" x="5.4" y="1.6" size="0.6096" layer="25" rot="R90"/>
 <attribute name="POWER" value="1/16W" x="5.3" y="4.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="5.3" y="4.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -4347,8 +4347,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-1.0MJRCT-ND" x="10.4" y="3.1" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="10.4" y="3.1" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0402JR-071ML" x="10.4" y="3.1" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="9.765" y="1.962" size="0.6096" layer="25"/>
 <attribute name="NAME" x="10.4" y="3.1" size="0.2" layer="51" rot="R180" align="center"/>
+<attribute name="NAME" x="9.765" y="1.962" size="0.6096" layer="25"/>
 <attribute name="POWER" value="1/16W" x="10.4" y="3.1" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="10.4" y="3.1" size="0.8128" layer="27" rot="R180" display="off"/>
 </element>
@@ -4357,8 +4357,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="24.3" y="19.6" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="24.3" y="19.6" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="24.3" y="19.6" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.3" y="19.6" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="25.588" y="20.665" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="24.3" y="19.6" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="1/16W" x="24.3" y="19.6" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="24.3" y="19.6" size="0.8128" layer="27" rot="R90" display="off"/>
 </element>
@@ -4367,8 +4367,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="24.3" y="17.2" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="24.3" y="17.2" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="24.3" y="17.2" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.3" y="17.2" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="23.638" y="16.765" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="24.3" y="17.2" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="1/16W" x="24.3" y="17.2" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="24.3" y="17.2" size="0.8128" layer="27" rot="R90" display="off"/>
 </element>
@@ -4377,8 +4377,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="26" y="17.45" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="26" y="17.45" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="26" y="17.45" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26" y="17.45" size="0.2" layer="51" rot="R180" align="center"/>
 <attribute name="NAME" x="26.635" y="16.838" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="26" y="17.45" size="0.2" layer="51" rot="R180" align="center"/>
 <attribute name="POWER" value="1/16W" x="26" y="17.45" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="26" y="17.45" size="0.8128" layer="27" rot="R180" display="off"/>
 </element>
@@ -4420,8 +4420,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" 6 Position Card Connector NANO SIM Surface Mount, Right Angle Gold " x="2.2" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="2.2" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="104224-0820" x="6.4" y="11.43" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="12.75" y="11.43" size="0.2" layer="52" rot="MR270" align="center"/>
 <attribute name="NAME" x="19.9645" y="6.5748" size="0.6096" layer="26" rot="MR90"/>
+<attribute name="NAME" x="12.75" y="11.43" size="0.2" layer="52" rot="MR270" align="center"/>
 <attribute name="PACKAGE" value="None" x="2.2" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="None" x="2.2" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="4.64981875" y="6.5295" size="1.27013125" layer="28" rot="MR90"/>
@@ -4431,37 +4431,37 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-1.0MJRCT-ND" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402JR-071ML" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.7" y="18.2" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="30.988" y="18.265" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="29.7" y="18.2" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="1/16W" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0603" package3d_urn="urn:adsk.eagle:package:5807321/6" value="4.7u" x="28.3" y="18.6" smashed="yes" rot="R90">
 <attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" x="28.3" y="18.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEYPN" value="1276-2087-1-ND" x="19.2" y="-9" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL10B475KQ8NQNC" x="19.2" y="-9" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.688" y="19.311" size="0.6096" layer="25" rot="R90"/>
+<attribute name="DIGIKEYPN" value="587-4906-1-ND" x="19.2" y="-9" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="JMK107BB7475MA-T" x="19.2" y="-9" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.3" y="18.6" size="0.2" layer="51" ratio="6" rot="R180" align="center"/>
+<attribute name="NAME" x="29.688" y="19.311" size="0.6096" layer="25" rot="R90"/>
 <attribute name="TEMPHIGH" value="125" x="28.3" y="18.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMPLOW" value="-55" x="28.3" y="18.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTHIGH" value="6.3V" x="19.2" y="-9" size="0.8128" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0603" package3d_urn="urn:adsk.eagle:package:5807321/6" value="4.7u" x="28.2" y="4.2" smashed="yes" rot="R270">
 <attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" x="28.2" y="4.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEYPN" value="1276-2087-1-ND" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL10B475KQ8NQNC" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="29.062003125" y="4.339003125" size="0.6096" layer="25" rot="R270"/>
+<attribute name="DIGIKEYPN" value="587-4906-1-ND" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="JMK107BB7475MA-T" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="28.2" y="4.2" size="0.2" layer="51" ratio="6" align="center"/>
+<attribute name="NAME" x="29.062003125" y="4.339003125" size="0.6096" layer="25" rot="R270"/>
 <attribute name="TEMPHIGH" value="125" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPLOW" value="-55" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTHIGH" value="6.3V" x="34.300003125" y="34.899996875" size="0.8128" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0805" package3d_urn="urn:adsk.eagle:package:5807330/6" value="47u" x="26.45" y="8.65" smashed="yes" rot="R270">
 <attribute name="DESC" value="CAP CER 47UF 6.3V X5R 0805" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEYPN" value="‎399-5506-1-ND‎" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C0805C476M9PACTU‎" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.684" y="5.461" size="0.6096" layer="25" rot="R90"/>
+<attribute name="DIGIKEYPN" value="587-1779-1-ND" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="JMK212BJ476MG-T" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="26.45" y="8.65" size="0.2" layer="51" ratio="6" align="center"/>
+<attribute name="NAME" x="27.684" y="5.461" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VOLTHIGH" value="6.3V" x="29.55" y="32.25" size="0.8128" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SW1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="SW-EVP-AA402W" package3d_urn="urn:adsk.eagle:package:19415243/4" value="SW-EVP-AA402W" x="41.4" y="3.8" smashed="yes" rot="R180">
@@ -4499,17 +4499,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-330JRCT-ND" x="1.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="1.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402JR-07330RL" x="1.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="1.2" y="17" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="0.688" y="16.365" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="1.2" y="17" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="" x="1.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="1.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0603" package3d_urn="urn:adsk.eagle:package:5807321/6" value="4.7u" x="19.6" y="12.3" smashed="yes" rot="R90">
 <attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEYPN" value="1276-2087-1-ND" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL10B475KQ8NQNC" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.65" y="9.25" size="0.6096" layer="25" rot="R90"/>
+<attribute name="DIGIKEYPN" value="587-4906-1-ND" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="JMK107BB7475MA-T" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="19.6" y="12.3" size="0.2" layer="51" ratio="6" rot="R180" align="center"/>
+<attribute name="NAME" x="19.65" y="9.25" size="0.6096" layer="25" rot="R90"/>
 <attribute name="TEMPHIGH" value="125" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMPLOW" value="-55" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTHIGH" value="6.3V" x="19.6" y="12.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4544,8 +4544,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="YAG3149CT-ND" x="18.2" y="11.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="18.2" y="11.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402FR-073K4L" x="18.2" y="11.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="18.2" y="11.35" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="17.35" y="10.2" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="18.2" y="11.35" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="1/16W" x="18.2" y="11.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="18.2" y="11.35" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -4554,8 +4554,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-330JRCT-ND" x="4.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="4.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0402JR-07330RL" x="4.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="1.3" y="5.7" size="0.2" layer="51" rot="R270" align="center"/>
 <attribute name="NAME" x="0.112" y="6.435" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="1.3" y="5.7" size="0.2" layer="51" rot="R270" align="center"/>
 <attribute name="POWER" value="" x="4.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="4.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -4608,8 +4608,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="44.95" y="19.95" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="44.95" y="19.95" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="44.95" y="19.95" size="0.8128" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="45.315" y="20.712" size="0.6096" layer="25"/>
 <attribute name="NAME" x="44.95" y="19.95" size="0.2" layer="51" rot="R180" align="center"/>
+<attribute name="NAME" x="45.315" y="20.712" size="0.6096" layer="25"/>
 <attribute name="POWER" value="1/16W" x="44.95" y="19.95" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="44.95" y="19.95" size="0.8128" layer="27" rot="R180" display="off"/>
 </element>
@@ -4626,10 +4626,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0603" package3d_urn="urn:adsk.eagle:package:5807321/6" value="4.7u" x="25.8" y="5.6" smashed="yes">
 <attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEYPN" value="1276-2087-1-ND" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL10B475KQ8NQNC" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.9" y="4.35" size="0.6096" layer="25"/>
+<attribute name="DIGIKEYPN" value="587-4906-1-ND" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="JMK107BB7475MA-T" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.8" y="5.6" size="0.2" layer="51" ratio="6" rot="R90" align="center"/>
+<attribute name="NAME" x="24.9" y="4.35" size="0.6096" layer="25"/>
 <attribute name="TEMPHIGH" value="125" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPLOW" value="-55" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTHIGH" value="6.3V" x="25.8" y="5.6" size="1.778" layer="27" display="off"/>
@@ -4645,10 +4645,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0603" package3d_urn="urn:adsk.eagle:package:5807321/6" value="4.7u" x="24.5" y="3.7" smashed="yes">
 <attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEYPN" value="1276-2087-1-ND" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL10B475KQ8NQNC" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.7" y="2.4" size="0.6096" layer="25"/>
+<attribute name="DIGIKEYPN" value="587-4906-1-ND" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="JMK107BB7475MA-T" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.5" y="3.7" size="0.2" layer="51" ratio="6" rot="R90" align="center"/>
+<attribute name="NAME" x="23.7" y="2.4" size="0.6096" layer="25"/>
 <attribute name="TEMPHIGH" value="125" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPLOW" value="-55" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTHIGH" value="6.3V" x="24.5" y="3.7" size="1.778" layer="27" display="off"/>
@@ -4667,8 +4667,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-1.0KJRCT-ND" x="24.1" y="9.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="24.1" y="9.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0402JR-071KL" x="24.1" y="9.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.565" y="10.112" size="0.6096" layer="25"/>
 <attribute name="NAME" x="24.1" y="9.5" size="0.2" layer="51" align="center"/>
+<attribute name="NAME" x="23.565" y="10.112" size="0.6096" layer="25"/>
 <attribute name="POWER" value="1/16W" x="24.1" y="9.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="24.1" y="9.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -4677,8 +4677,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="9.9" y="4.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="9.9" y="4.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="9.9" y="4.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="9.35" y="5.05" size="0.6096" layer="25" rot="R90"/>
 <attribute name="NAME" x="9.9" y="4.8" size="0.2" layer="51" rot="R270" align="center"/>
+<attribute name="NAME" x="9.35" y="5.05" size="0.6096" layer="25" rot="R90"/>
 <attribute name="POWER" value="1/16W" x="9.9" y="4.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="9.9" y="4.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -4695,8 +4695,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-22.1KLRCT-ND" x="24.1" y="7.1" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="24.1" y="7.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0402FR-0722K1L" x="24.1" y="7.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.1" y="7.1" size="0.2" layer="51" align="center"/>
 <attribute name="NAME" x="25.4" y="6.3" size="0.6096" layer="25"/>
+<attribute name="NAME" x="24.1" y="7.1" size="0.2" layer="51" align="center"/>
 <attribute name="POWER" value="1/16W" x="24.1" y="7.1" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="24.1" y="7.1" size="1.778" layer="27" display="off"/>
 </element>
@@ -4705,8 +4705,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-47.5KLRCT-ND" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0402FR-0747K5L" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.1" y="8.3" size="0.2" layer="51" rot="R180" align="center"/>
 <attribute name="NAME" x="25.665" y="8.362" size="0.6096" layer="25"/>
+<attribute name="NAME" x="24.1" y="8.3" size="0.2" layer="51" rot="R180" align="center"/>
 <attribute name="POWER" value="1/16W" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="24.1" y="8.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -4727,10 +4727,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="48.8134" y="14.785" size="0.6096" layer="25" ratio="6" rot="SR0"/>
 </element>
 <element name="C12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="CAPC1005X55N" package3d_urn="urn:adsk.eagle:package:7419912/5" value="56p" x="46.45" y="14.1" smashed="yes">
-<attribute name="DESC" value="CAP CER 56PF 50V C0G/NP0 0402" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEYPN" value="399-1020-1-ND‎" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Kemet" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C0402C560J5GACTU‎" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
+<attribute name="DESC" value="CAP CER 56PF 50V C0G/NPO 0402" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEYPN" value="311-1656-1-ND" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0402GRNPO9BN560" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="46.45" y="14.1" size="0.2" layer="51" align="center"/>
 <attribute name="NAME" x="46.9034375" y="15.347421875" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VOLTHIGH" value="50V" x="46.45" y="14.1" size="1.778" layer="27" display="off"/>
@@ -4762,8 +4762,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="16.65" y="14.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="16.65" y="14.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="16.65" y="14.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.9" y="16.75" size="0.2" layer="51" align="center"/>
 <attribute name="NAME" x="21.315" y="17.312" size="0.6096" layer="25"/>
+<attribute name="NAME" x="21.9" y="16.75" size="0.2" layer="51" align="center"/>
 <attribute name="POWER" value="1/16W" x="16.65" y="14.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="16.65" y="14.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -4786,8 +4786,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-20.0KLRCT-ND" x="53.6" y="13.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="53.6" y="13.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402FR-0720KL" x="53.6" y="13.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.35" y="19.25" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="37.912" y="22.035" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="38.35" y="19.25" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="1/16W" x="53.6" y="13.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="53.6" y="13.85" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -4796,8 +4796,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-20.0KLRCT-ND" x="52.3" y="19.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="52.3" y="19.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0402FR-0720KL" x="52.3" y="19.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.15" y="19.25" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="NAME" x="35.9" y="18.55" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="37.15" y="19.25" size="0.2" layer="51" rot="R90" align="center"/>
 <attribute name="POWER" value="1/16W" x="52.3" y="19.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="52.3" y="19.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -4818,16 +4818,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-100KLRCT-ND" x="33.75" y="19.4" size="0.6096" layer="27" rot="R225" display="off"/>
 <attribute name="MF" value="" x="33.75" y="19.4" size="0.6096" layer="27" rot="R225" display="off"/>
 <attribute name="MPN" value="RC0402FR07100KL" x="33.75" y="19.4" size="0.6096" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="33.75" y="19.4" size="0.2" layer="51" rot="R225" align="center"/>
 <attribute name="NAME" x="35.197453125" y="21.113325" size="0.6096" layer="25" rot="R225"/>
+<attribute name="NAME" x="33.75" y="19.4" size="0.2" layer="51" rot="R225" align="center"/>
 <attribute name="POWER" value="1/16W" x="33.75" y="19.4" size="0.6096" layer="27" rot="R225" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="33.75" y="19.4" size="0.6096" layer="27" rot="R225" display="off"/>
 </element>
 <element name="C19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="CAPC1005X55N" package3d_urn="urn:adsk.eagle:package:7419912/5" value="56p" x="48.85" y="11.2" smashed="yes" rot="R270">
-<attribute name="DESC" value="CAP CER 56PF 50V C0G/NP0 0402" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEYPN" value="399-1020-1-ND‎" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Kemet" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C0402C560J5GACTU‎" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
+<attribute name="DESC" value="CAP CER 56PF 50V C0G/NPO 0402" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEYPN" value="311-1656-1-ND" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CC0402GRNPO9BN560" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="50.15" y="10.4" size="0.6096" layer="25" rot="R90"/>
 <attribute name="NAME" x="48.85" y="11.2" size="0.2" layer="51" rot="R270" align="center"/>
 <attribute name="VOLTHIGH" value="50V" x="48.85" y="11.2" size="0.6096" layer="27" rot="R270" display="off"/>
@@ -4843,8 +4843,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEYPN" value="311-1.0MJRCT-ND" x="5.8" y="5.9" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="5.8" y="5.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0402JR-071ML" x="5.8" y="5.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.015" y="6.462" size="0.6096" layer="25"/>
 <attribute name="NAME" x="5.8" y="5.9" size="0.2" layer="51" align="center"/>
+<attribute name="NAME" x="5.015" y="6.462" size="0.6096" layer="25"/>
 <attribute name="POWER" value="1/16W" x="5.8" y="5.9" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="5.8" y="5.9" size="1.778" layer="27" display="off"/>
 </element>
