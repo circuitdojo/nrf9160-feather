@@ -1269,24 +1269,24 @@ chip</description>
 <text x="0" y="0" size="0.2" layer="51" rot="R90" align="center">&gt;NAME</text>
 <circle x="-1.8" y="1" radius="0.05" width="0.2" layer="21"/>
 </package>
-<package name="LED0402" urn="urn:adsk.eagle:footprint:15730962/3" library_version="94">
+<package name="LED_EAST1005" library_version="94" library_locally_modified="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 chip 0402</description>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="0.6" x2="-1.2" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-0.6" x2="1.2" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="1.2" y1="-0.6" x2="1.2" y2="0.6" width="0.127" layer="21"/>
-<wire x1="1.2" y1="0.6" x2="-1.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.973" y1="0.483" x2="0.973" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="0.973" y1="0.483" x2="0.973" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="0.973" y1="-0.483" x2="-0.973" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-0.973" y1="-0.483" x2="-0.973" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.127" layer="21"/>
 <wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
 <wire x1="-0.53" y1="-0.28" x2="0.53" y2="-0.28" width="0.127" layer="51"/>
 <wire x1="-0.5" y1="-0.8" x2="0.6" y2="-0.8" width="0.127" layer="51"/>
 <wire x1="0.3" y1="-0.6" x2="0.3" y2="-1" width="0.127" layer="51"/>
-<smd name="A" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="C" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.762" size="0.8128" layer="25">&gt;NAME</text>
+<smd name="A" x="-0.525" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="C" x="0.525" y="0" dx="0.5" dy="0.5" layer="1"/>
+<text x="-0.635" y="0.762" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0" y="0" size="0.2" layer="51" align="center">&gt;NAME</text>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 <rectangle x1="-0.6" y1="-0.34" x2="-0.3" y2="0.34" layer="51"/>
@@ -1296,6 +1296,7 @@ chip 0402</description>
 <vertex x="-0.2" y="-1.1"/>
 <vertex x="-0.2" y="-0.5"/>
 </polygon>
+<circle x="0.5" y="-0.8" radius="0.06" width="0.15" layer="21"/>
 </package>
 <package name="SON95P300X300X100-7N" urn="urn:adsk.eagle:footprint:19415226/3" library_version="94">
 <rectangle x1="-0.5138" y1="-0.7479" x2="0.5138" y2="0.7479" layer="31"/>
@@ -2108,13 +2109,6 @@ chip</description>
 <package3d name="DSK0010A" urn="urn:adsk.eagle:package:19061977/3" type="model" library_version="94">
 <packageinstances>
 <packageinstance name="DSK0010A"/>
-</packageinstances>
-</package3d>
-<package3d name="LED0402" urn="urn:adsk.eagle:package:15730988/4" type="model" library_version="94">
-<description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
-chip 0402</description>
-<packageinstances>
-<packageinstance name="LED0402"/>
 </packageinstances>
 </package3d>
 <package3d name="SOT50P160X60-6N" urn="urn:adsk.eagle:package:10610052/1" type="box" library_version="88" library_locally_modified="yes">
@@ -3408,6 +3402,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402JR-070RL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value=""/>
 <attribute name="VALUE" value="0"/>
 </technology>
@@ -3417,6 +3413,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-071K54L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="1.54k"/>
 </technology>
@@ -3426,28 +3424,39 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR07100KL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="100k"/>
 </technology>
 <technology name="-10K-0.5%">
+<attribute name="DESC" value="" constant="no"/>
 <attribute name="DIGIKEYPN" value="YAG2318CT-ND" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RT0603DRE0710KL"/>
+<attribute name="POWER" value="" constant="no"/>
 <attribute name="TEMPHIGH" value="155"/>
 <attribute name="TEMPLOW" value="-55"/>
 <attribute name="TOLERANCE" value="0.5%"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 <technology name="-10K-1%">
+<attribute name="DESC" value="" constant="no"/>
 <attribute name="DIGIKEYPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="POWER" value="" constant="no"/>
 <attribute name="TEMPHIGH" value="155"/>
 <attribute name="TEMPLOW" value="-55"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 <technology name="-10K-1%-02">
+<attribute name="DESC" value="" constant="no"/>
 <attribute name="DIGIKEYPN" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="ERJ-3EKF1002V"/>
+<attribute name="POWER" value="" constant="no"/>
 <attribute name="TEMPHIGH" value="155"/>
 <attribute name="TEMPLOW" value="-55"/>
 <attribute name="TOLERANCE" value="1%"/>
@@ -3459,6 +3468,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-07140RL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="140"/>
 </technology>
@@ -3468,6 +3479,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RCS04021K00FKED"/>
 <attribute name="POWER" value="1/5W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="1k"/>
 </technology>
@@ -3477,6 +3490,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402JR-071KL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VALUE" value="1k"/>
 </technology>
@@ -3486,6 +3501,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value=""/>
 <attribute name="POWER" value=""/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value=""/>
 <attribute name="VALUE" value=""/>
 </technology>
@@ -3495,6 +3512,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402JR-071ML"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VALUE" value="1M"/>
 </technology>
@@ -3504,6 +3523,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-072K7L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="2.7k"/>
 </technology>
@@ -3513,6 +3534,8 @@ chip</description>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0720KL" constant="no"/>
 <attribute name="POWER" value="1/16W" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="20k" constant="no"/>
 </technology>
@@ -3522,8 +3545,21 @@ chip</description>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0722K1L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="22.1k"/>
+</technology>
+<technology name="-22K-1%">
+<attribute name="DESC" value="RES SMD 22K OHM 1% 1/16W 0402" constant="no"/>
+<attribute name="DIGIKEYPN" value="311-22.0KLRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402FR-0722KL" constant="no"/>
+<attribute name="POWER" value="1/16W" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="22k" constant="no"/>
 </technology>
 <technology name="-2K-1%">
 <attribute name="DESC" value="RES SMD 2K OHM 1% 1/16W 0402"/>
@@ -3531,6 +3567,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-072KL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="2k"/>
 </technology>
@@ -3540,6 +3578,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-073K4L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="3.4k"/>
 </technology>
@@ -3549,6 +3589,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-07309KL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="309k"/>
 </technology>
@@ -3558,8 +3600,21 @@ chip</description>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0402JR-07330RL"/>
 <attribute name="POWER" value="" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VALUE" value="330"/>
+</technology>
+<technology name="-33K-1%">
+<attribute name="DESC" value="RES SMD 33K OHM 1% 1/16W 0402" constant="no"/>
+<attribute name="DIGIKEYPN" value="311-33.0KLRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402FR-0722KL" constant="no"/>
+<attribute name="POWER" value="1/16W" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="33k" constant="no"/>
 </technology>
 <technology name="-4.7K-1%">
 <attribute name="DESC" value="RES SMD 4.7K OHM 1% 1/16W 0402"/>
@@ -3567,6 +3622,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-074K7L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="4.7k"/>
 </technology>
@@ -3576,6 +3633,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402JR-0747RL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VALUE" value="47"/>
 </technology>
@@ -3585,6 +3644,8 @@ chip</description>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0747K5L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="47.5k"/>
 </technology>
@@ -3594,6 +3655,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0752K3L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="52.3k"/>
 </technology>
@@ -3603,6 +3666,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0763K4L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="63.4k"/>
 </technology>
@@ -3612,6 +3677,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0766K5L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="66.5k"/>
 </technology>
@@ -3621,6 +3688,8 @@ chip</description>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0402FR-07665KL" constant="no"/>
 <attribute name="POWER" value="1/16W" constant="no"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="665k" constant="no"/>
 </technology>
@@ -3630,6 +3699,8 @@ chip</description>
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="RC0402FR-0769K8L"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="69.8k"/>
 </technology>
@@ -3639,6 +3710,8 @@ chip</description>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0402FR-07976KL"/>
 <attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPHIGH" value="" constant="no"/>
+<attribute name="TEMPLOW" value="" constant="no"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="976k"/>
 </technology>
@@ -4557,21 +4630,12 @@ chip</description>
 </technology>
 </technologies>
 </device>
-<device name="-0402" package="LED0402">
+<device name="-0402" package="LED_EAST1005">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15730988/4"/>
-</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="DESC" value="" constant="no"/>
-<attribute name="DIGIKEYPN" value="" constant="no"/>
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-</technology>
 <technology name="-BLUE">
 <attribute name="DESC" value="LED BLUE CLEAR 2SMD" constant="no"/>
 <attribute name="DIGIKEYPN" value="1080-1558-1-ND" constant="no"/>
@@ -4618,7 +4682,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-DUAL-COMP" urn="urn:adsk.eagle:component:10610056/3" prefix="Q" library_version="94">
+<deviceset name="MOSFET-DUAL-COMP" urn="urn:adsk.eagle:component:10610056/3" locally_modified="yes" prefix="Q" library_version="94" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="MOSFET-N" x="-17.78" y="-2.54"/>
 <gate name="B" symbol="MOSFET-P" x="12.7" y="-2.54"/>
@@ -5344,7 +5408,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-TPS6303" device="" package3d_urn="urn:adsk.eagle:package:19061977/3" technology="1DSKR"/>
 <part name="P+14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
-<part name="D3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:15730988/4" technology="-BLUE"/>
+<part name="D3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" technology="-BLUE"/>
 <part name="U7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-STBC08PMR" device="" package3d_urn="urn:adsk.eagle:package:8172022/5"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
@@ -5353,10 +5417,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/2" technology="-330-5%" value="330"/>
-<part name="D4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:15730988/4" override_package3d_urn="urn:adsk.eagle:package:19417028/3" override_package_urn="urn:adsk.eagle:footprint:15730962/2" override_locally_modified="yes" technology="-ORANGE" value="LED-ORANGE-0402"/>
+<part name="D4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" override_package3d_urn="urn:adsk.eagle:package:19417028/3" override_package_urn="urn:adsk.eagle:footprint:15730962/2" override_locally_modified="yes" technology="-ORANGE" value="LED-ORANGE-0402"/>
 <part name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V-1" value="1u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-DUAL-COMP" device="-VMT6" package3d_urn="urn:adsk.eagle:package:19415244/3"/>
+<part name="Q2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-DUAL-COMP" device="-SOT563" package3d_urn="urn:adsk.eagle:package:10610052/1" value="MOSFET-DUAL-COMP-SOT563"/>
 <part name="J9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-0002" device="" package3d_urn="urn:adsk.eagle:package:5807306/4" override_package3d_urn="urn:adsk.eagle:package:5807306/5" override_package_urn="urn:adsk.eagle:footprint:5807295/3">
 <variant name="Production" populate="no"/>
 </part>
