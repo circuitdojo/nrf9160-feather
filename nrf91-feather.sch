@@ -598,7 +598,7 @@ chip</description>
 <text x="-0.9666" y="0.665" size="0.8128" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="0" y="0" size="0.2" layer="51" align="center">&gt;NAME</text>
 </package>
-<package name="TE_1909763-1" urn="urn:adsk.eagle:footprint:19061957/3" locally_modified="yes" library_version="94" library_locally_modified="yes">
+<package name="TE_1909763-1" urn="urn:adsk.eagle:footprint:19061957/4" library_version="95" library_locally_modified="yes">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
@@ -955,7 +955,7 @@ chip</description>
 <rectangle x1="3.55" y1="2.75" x2="4.45" y2="3.65" layer="29"/>
 <rectangle x1="5.55" y1="2.75" x2="6.45" y2="3.65" layer="29"/>
 </package>
-<package name="MOLEX_104224-0820" urn="urn:adsk.eagle:footprint:19415228/2" library_version="94">
+<package name="MOLEX_104224-0820" urn="urn:adsk.eagle:footprint:19415228/2" locally_modified="yes" library_version="95" library_locally_modified="yes">
 <rectangle x1="-0.600771875" y1="0.35045" x2="0.6" y2="3.25" layer="41"/>
 <rectangle x1="-0.60111875" y1="0.350653125" x2="0.6" y2="3.25" layer="43"/>
 <rectangle x1="-3.14585" y1="0.350653125" x2="-1.94" y2="3.25" layer="41"/>
@@ -1024,8 +1024,7 @@ chip</description>
 <wire x1="5.85" y1="-0.15" x2="5.85" y2="13.375" width="0.05" layer="39"/>
 <wire x1="5.85" y1="13.375" x2="-5.85" y2="13.375" width="0.05" layer="39"/>
 <wire x1="-5.85" y1="13.375" x2="-5.85" y2="-0.15" width="0.05" layer="39"/>
-<text x="-4.8552" y="13.5645" size="1.271359375" layer="25">&gt;NAME</text>
-<text x="-4.9005" y="-1.75018125" size="1.27013125" layer="27">&gt;VALUE</text>
+<text x="-4.8552" y="13.5645" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="0" y="6.35" size="0.2" layer="51" rot="R180" align="center">&gt;NAME</text>
 <circle x="5.8" y="4.35" radius="0.1" width="0.2" layer="21"/>
 <smd name="G1" x="-5.1" y="1.5" dx="1" dy="2.3" layer="1"/>
@@ -1147,7 +1146,7 @@ chip</description>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="0" y="0" size="0.2" layer="51" align="center">&gt;NAME</text>
 </package>
-<package name="MOLEX_1050170001-NO-PAD" library_version="94" library_locally_modified="yes">
+<package name="MOLEX_1050170001-NO-PAD" urn="urn:adsk.eagle:footprint:24898396/1" library_version="95" library_locally_modified="yes">
 <wire x1="-3.75" y1="2.5" x2="3.75" y2="2.5" width="0.127" layer="51"/>
 <wire x1="3.75" y1="2.5" x2="3.75" y2="-1.8" width="0.127" layer="51"/>
 <wire x1="3.75" y1="-1.8" x2="-3.75" y2="-1.8" width="0.127" layer="51"/>
@@ -1187,10 +1186,14 @@ chip</description>
 <wire x1="3.5" y1="-0.7" x2="3.5" y2="0" width="0.95" layer="16"/>
 <wire x1="3.5" y1="-0.7" x2="3.5" y2="0" width="0.95" layer="1"/>
 <wire x1="3.5" y1="-0.7" x2="3.5" y2="0" width="1.15" layer="29"/>
+<wire x1="-3.5" y1="-0.7" x2="-3.5" y2="0" width="0.95" layer="16"/>
+<wire x1="3.5" y1="-0.7" x2="3.5" y2="0" width="0.95" layer="31"/>
 <text x="-4.31026875" y="3.64023125" size="0.8128" layer="25">&gt;NAME</text>
 <text x="0" y="0" size="0.2" layer="51" rot="R180" align="center">&gt;NAME</text>
 <circle x="-1.3" y="3.6" radius="0.1" width="0.2" layer="21"/>
 <circle x="-1.3" y="1.9" radius="0.1" width="0.2" layer="51"/>
+<circle x="2.5" y="2.35" radius="0.3" width="0.85" layer="31"/>
+<circle x="-2.5" y="2.35" radius="0.3" width="0.85" layer="31"/>
 <pad name="SH1" x="-2.5" y="2.35" drill="0.85" diameter="1.45"/>
 <pad name="SH2" x="2.5" y="2.35" drill="0.85" diameter="1.45"/>
 <pad name="SH3" x="-3.5" y="0" drill="0.6" diameter="0.95" rot="R90"/>
@@ -1202,10 +1205,6 @@ chip</description>
 <smd name="3" x="0" y="2.35" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="4" x="0.65" y="2.35" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="5" x="1.3" y="2.35" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<wire x1="-3.5" y1="-0.7" x2="-3.5" y2="0" width="0.95" layer="16"/>
-<wire x1="3.5" y1="-0.7" x2="3.5" y2="0" width="0.95" layer="31"/>
-<circle x="2.5" y="2.35" radius="0.3" width="0.85" layer="31"/>
-<circle x="-2.5" y="2.35" radius="0.3" width="0.85" layer="31"/>
 </package>
 <package name="DSK0010A" urn="urn:adsk.eagle:footprint:19061958/2" library_version="94">
 <smd name="1" x="-1.15" y="1.000003125" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
@@ -1269,7 +1268,7 @@ chip</description>
 <text x="0" y="0" size="0.2" layer="51" rot="R90" align="center">&gt;NAME</text>
 <circle x="-1.8" y="1" radius="0.05" width="0.2" layer="21"/>
 </package>
-<package name="LED_EAST1005" library_version="94" library_locally_modified="yes">
+<package name="LED_EAST1005" urn="urn:adsk.eagle:footprint:24898404/1" library_version="95" library_locally_modified="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 chip 0402</description>
 <wire x1="-0.973" y1="0.483" x2="0.973" y2="0.483" width="0.0508" layer="39"/>
@@ -1766,7 +1765,7 @@ chip 0402</description>
 <circle x="-1.9" y="1" radius="0.05" width="0.27" layer="21"/>
 <circle x="-0.8" y="0.9" radius="0.05" width="0.27" layer="51"/>
 </package>
-<package name="XTAL320X150X90" urn="urn:adsk.eagle:footprint:13629243/2" locally_modified="yes" library_version="94" library_locally_modified="yes">
+<package name="XTAL320X150X90" urn="urn:adsk.eagle:footprint:13629243/3" library_version="95" library_locally_modified="yes">
 <wire x1="-1.9002" y1="1.0493" x2="1.9002" y2="1.0493" width="0.127" layer="21"/>
 <wire x1="1.9002" y1="1.0493" x2="1.9002" y2="-1.0493" width="0.127" layer="21"/>
 <wire x1="1.9002" y1="-1.0493" x2="-1.9002" y2="-1.0493" width="0.127" layer="21"/>
@@ -1775,7 +1774,7 @@ chip 0402</description>
 <smd name="1" x="-1.2192" y="0" dx="1.0922" dy="1.905" layer="1"/>
 <smd name="2" x="1.2192" y="0" dx="1.0922" dy="1.905" layer="1"/>
 </package>
-<package name="SOT363" urn="urn:adsk.eagle:footprint:5807305/6" locally_modified="yes" library_version="94" library_locally_modified="yes">
+<package name="SOT363" urn="urn:adsk.eagle:footprint:5807305/7" library_version="95" library_locally_modified="yes">
 <wire x1="-1.1" y1="0.55" x2="1.1" y2="0.55" width="0.2032" layer="51"/>
 <wire x1="1.1" y1="-0.55" x2="-1.1" y2="-0.55" width="0.2032" layer="51"/>
 <wire x1="-1.1" y1="0.6" x2="-1.1" y2="-0.6" width="0.127" layer="21"/>
@@ -1855,76 +1854,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 <rectangle x1="-0.3" y1="0.85" x2="0.2" y2="1.5" layer="51"/>
 </package>
-<package name="R1206" urn="urn:adsk.eagle:footprint:14251651/1" locally_modified="yes" library_version="94" library_locally_modified="yes">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.322" y="0" dx="1.4" dy="1.803" layer="1"/>
-<smd name="1" x="-1.322" y="0" dx="1.4" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-<wire x1="-2.5" y1="1.1" x2="-2.5" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.1" x2="2.5" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.1" x2="2.5" y2="1.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1.1" x2="-2.5" y2="1.1" width="0.127" layer="21"/>
-</package>
-<package name="RESC6332X70N" library_version="94" library_locally_modified="yes">
-<text x="-3.86" y="-2.05" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-3.86" y="2.05" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="3.25" y1="-1.7" x2="-3.25" y2="-1.7" width="0.127" layer="51"/>
-<wire x1="3.25" y1="1.7" x2="-3.25" y2="1.7" width="0.127" layer="51"/>
-<wire x1="3.25" y1="-1.7" x2="3.25" y2="1.7" width="0.127" layer="51"/>
-<wire x1="-3.25" y1="-1.7" x2="-3.25" y2="1.7" width="0.127" layer="51"/>
-<wire x1="-3.858" y1="-1.958" x2="3.858" y2="-1.958" width="0.05" layer="39"/>
-<wire x1="-3.858" y1="1.958" x2="3.858" y2="1.958" width="0.05" layer="39"/>
-<wire x1="-3.858" y1="-1.958" x2="-3.858" y2="1.958" width="0.05" layer="39"/>
-<wire x1="3.858" y1="-1.958" x2="3.858" y2="1.958" width="0.05" layer="39"/>
-<smd name="1" x="-2.19" y="0" dx="2.84" dy="3.42" layer="1"/>
-<smd name="2" x="2.19" y="0" dx="2.84" dy="3.42" layer="1"/>
-<wire x1="-3.8" y1="1.9" x2="3.9" y2="1.9" width="0.127" layer="21"/>
-<wire x1="3.9" y1="1.9" x2="3.9" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="3.9" y1="-1.9" x2="-3.8" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-1.9" x2="-3.8" y2="1.9" width="0.127" layer="21"/>
-</package>
-<package name="SOT230P700X180-4N" library_version="94" library_locally_modified="yes">
-<wire x1="-1.8542" y1="1.8796" x2="-1.8542" y2="2.7432" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="2.7432" x2="-3.6576" y2="2.7432" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="2.7432" x2="-3.6576" y2="1.8796" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="1.8796" x2="-1.8542" y2="1.8796" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.4318" x2="-1.8542" y2="0.4318" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.4318" x2="-3.6576" y2="0.4318" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="0.4318" x2="-3.6576" y2="-0.4318" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="-0.4318" x2="-1.8542" y2="-0.4318" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-2.7432" x2="-1.8542" y2="-1.8796" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-1.8796" x2="-3.6576" y2="-1.8796" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="-1.8796" x2="-3.6576" y2="-2.7432" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="-2.7432" x2="-1.8542" y2="-2.7432" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="1.5748" x2="1.8542" y2="-1.5748" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.5748" x2="3.6576" y2="-1.5748" width="0.1524" layer="51"/>
-<wire x1="3.6576" y1="-1.5748" x2="3.6576" y2="1.6002" width="0.1524" layer="51"/>
-<wire x1="3.6576" y1="1.6002" x2="1.8542" y2="1.5748" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="21"/>
-<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="21"/>
-<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="21"/>
-<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="21"/>
-<text x="-2.271390625" y="3.563990625" size="0.8128" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<smd name="1" x="-3.2004" y="2.3114" dx="1.6256" dy="0.889" layer="1"/>
-<smd name="2" x="-3.2004" y="0" dx="1.6256" dy="0.889" layer="1"/>
-<smd name="3" x="-3.2004" y="-2.3114" dx="1.6256" dy="0.889" layer="1"/>
-<smd name="4" x="3.2004" y="0" dx="1.6256" dy="3.175" layer="1"/>
-<text x="0" y="0" size="0.5" layer="51" ratio="10" rot="SR0" align="center">&gt;NAME</text>
-</package>
 <package name="LED0603" urn="urn:adsk.eagle:footprint:7134379/4" library_version="94" library_locally_modified="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -1984,14 +1913,14 @@ chip</description>
 <text x="0" y="-1.27" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <pad name="1" x="1.25" y="0" drill="0.6" shape="square"/>
 </package>
-<package name="TP-1P0" library_version="94" library_locally_modified="yes">
+<package name="TP-1P0" urn="urn:adsk.eagle:footprint:24898390/1" library_version="95" library_locally_modified="yes">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" thermals="no" cream="no"/>
 <text x="-0.635" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 </package>
-<package name="PQFN50P200X200100-12N" urn="urn:adsk.eagle:footprint:5807301/2" library_version="94" library_locally_modified="yes">
+<package name="PQFN50P200X200100-12N" urn="urn:adsk.eagle:footprint:5807301/2" locally_modified="yes" library_version="95" library_locally_modified="yes">
 <wire x1="-1.08" y1="1.08" x2="1.08" y2="1.08" width="0.127" layer="51"/>
 <wire x1="1.08" y1="1.08" x2="1.08" y2="-1.08" width="0.127" layer="51"/>
 <wire x1="1.08" y1="-1.08" x2="-1.08" y2="-1.08" width="0.127" layer="51"/>
@@ -2004,8 +1933,7 @@ chip</description>
 <wire x1="1.08" y1="-1.105" x2="0.61" y2="-1.105" width="0.127" layer="21"/>
 <wire x1="-0.61" y1="-1.105" x2="-1.08" y2="-1.105" width="0.127" layer="21"/>
 <wire x1="0.61" y1="1.105" x2="1.08" y2="1.105" width="0.127" layer="21"/>
-<text x="-2.305059375" y="1.5036" size="1.02636875" layer="25">&gt;NAME</text>
-<text x="-2.110390625" y="-2.40618125" size="1.02916875" layer="27">&gt;VALUE</text>
+<text x="-2.305059375" y="1.5036" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <circle x="-1.35" y="0.8" radius="0.05" width="0.1" layer="21"/>
 <circle x="-1.35" y="0.8" radius="0.05" width="0.1" layer="51"/>
 <smd name="2" x="-0.875" y="0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
@@ -2026,8 +1954,9 @@ chip</description>
 <vertex x="0.5" y="-0.5"/>
 <vertex x="0.5" y="0.5"/>
 </polygon>
+<text x="0" y="0" size="0.2" layer="51" align="center">&gt;NAME</text>
 </package>
-<package name="JUMPER-ROUND-NC" library_version="94" library_locally_modified="yes">
+<package name="JUMPER-ROUND-NC" urn="urn:adsk.eagle:footprint:24898407/1" library_version="95" library_locally_modified="yes">
 <smd name="P$1" x="-0.3" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="P$2" x="0.3" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.2" layer="1">
@@ -2038,7 +1967,6 @@ chip</description>
 <vertex x="0.1635" y="-0.35"/>
 <vertex x="0.1635" y="0.35" curve="-180"/>
 </polygon>
-<text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <polygon width="0.275" layer="29">
 <vertex x="-0.17" y="0.35"/>
 <vertex x="-0.17" y="-0.35" curve="-180"/>
@@ -2047,6 +1975,7 @@ chip</description>
 <vertex x="0.17" y="-0.35"/>
 <vertex x="0.17" y="0.35" curve="-180"/>
 </polygon>
+<text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <rectangle x1="-0.16" y1="-0.488" x2="0.16" y2="0.488" layer="29"/>
 <wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.1524" layer="1"/>
 <wire x1="0.75" y1="0.1" x2="0.75" y2="-0.1" width="0.127" layer="21"/>
@@ -2058,9 +1987,10 @@ chip</description>
 <wire x1="-0.2" y1="0.6" x2="0.2" y2="0.6" width="0.127" layer="21"/>
 <wire x1="0.2" y1="0.6" x2="0.75" y2="0.1" width="0.127" layer="21" curve="-90"/>
 </package>
-<package name="JUMPER-ROUND-3-NO-R" library_version="94" library_locally_modified="yes">
+<package name="JUMPER-ROUND-3-NO-R" urn="urn:adsk.eagle:footprint:24898408/1" library_version="95" library_locally_modified="yes">
 <smd name="P$1" x="-0.6746" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="P$3" x="0.6746" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.2" layer="1">
 <vertex x="-0.5381" y="0.35"/>
 <vertex x="-0.5381" y="-0.35" curve="-180"/>
@@ -2069,7 +1999,6 @@ chip</description>
 <vertex x="0.5381" y="-0.35"/>
 <vertex x="0.5381" y="0.35" curve="-180"/>
 </polygon>
-<text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <polygon width="0.275" layer="29">
 <vertex x="-0.5446" y="0.35"/>
 <vertex x="-0.5446" y="-0.35" curve="-180"/>
@@ -2078,10 +2007,10 @@ chip</description>
 <vertex x="0.5446" y="-0.35"/>
 <vertex x="0.5446" y="0.35" curve="-180"/>
 </polygon>
+<text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <rectangle x1="-0.56" y1="-0.488" x2="0.56" y2="0.488" layer="29"/>
-<wire x1="0" y1="0" x2="0.6746" y2="0" width="0.1524" layer="1"/>
-<smd name="P$2" x="0" y="0" dx="0.2" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-0.3" y1="-0.45" x2="0.3" y2="0.45" layer="1"/>
+<wire x1="0" y1="0" x2="0.6746" y2="0" width="0.1524" layer="1"/>
 <wire x1="-0.6" y1="0.6" x2="0.6" y2="0.6" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0.6" x2="1.15" y2="0.1" width="0.127" layer="21" curve="-90"/>
 <wire x1="1.15" y1="0.1" x2="1.15" y2="-0.1" width="0.127" layer="21"/>
@@ -2090,6 +2019,76 @@ chip</description>
 <wire x1="-0.6" y1="-0.6" x2="-1.15" y2="-0.1" width="0.127" layer="21" curve="-90"/>
 <wire x1="-1.15" y1="-0.1" x2="-1.15" y2="0.1" width="0.127" layer="21"/>
 <wire x1="-1.15" y1="0.1" x2="-0.6" y2="0.6" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="R1206" urn="urn:adsk.eagle:footprint:14251651/2" library_version="95" library_locally_modified="yes">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-2.5" y1="1.1" x2="-2.5" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.1" x2="2.5" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.1" x2="2.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.1" x2="-2.5" y2="1.1" width="0.127" layer="21"/>
+<smd name="2" x="1.322" y="0" dx="1.4" dy="1.803" layer="1"/>
+<smd name="1" x="-1.322" y="0" dx="1.4" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+<package name="RESC6332X70N" urn="urn:adsk.eagle:footprint:24898391/1" library_version="95" library_locally_modified="yes">
+<text x="-3.86" y="-2.05" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.86" y="2.05" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="3.25" y1="-1.7" x2="-3.25" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="3.25" y1="1.7" x2="-3.25" y2="1.7" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-1.7" x2="3.25" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-1.7" x2="-3.25" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-3.858" y1="-1.958" x2="3.858" y2="-1.958" width="0.05" layer="39"/>
+<wire x1="-3.858" y1="1.958" x2="3.858" y2="1.958" width="0.05" layer="39"/>
+<wire x1="-3.858" y1="-1.958" x2="-3.858" y2="1.958" width="0.05" layer="39"/>
+<wire x1="3.858" y1="-1.958" x2="3.858" y2="1.958" width="0.05" layer="39"/>
+<wire x1="-3.8" y1="1.9" x2="3.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.9" y1="1.9" x2="3.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="3.9" y1="-1.9" x2="-3.8" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-1.9" x2="-3.8" y2="1.9" width="0.127" layer="21"/>
+<smd name="1" x="-2.19" y="0" dx="2.84" dy="3.42" layer="1"/>
+<smd name="2" x="2.19" y="0" dx="2.84" dy="3.42" layer="1"/>
+</package>
+<package name="SOT230P700X180-4N" urn="urn:adsk.eagle:footprint:24898387/1" library_version="95" library_locally_modified="yes">
+<wire x1="-1.8542" y1="1.8796" x2="-1.8542" y2="2.7432" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="2.7432" x2="-3.6576" y2="2.7432" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="2.7432" x2="-3.6576" y2="1.8796" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="1.8796" x2="-1.8542" y2="1.8796" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-0.4318" x2="-1.8542" y2="0.4318" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="0.4318" x2="-3.6576" y2="0.4318" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="0.4318" x2="-3.6576" y2="-0.4318" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-0.4318" x2="-1.8542" y2="-0.4318" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-2.7432" x2="-1.8542" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-1.8796" x2="-3.6576" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-1.8796" x2="-3.6576" y2="-2.7432" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-2.7432" x2="-1.8542" y2="-2.7432" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="1.5748" x2="1.8542" y2="-1.5748" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-1.5748" x2="3.6576" y2="-1.5748" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="-1.5748" x2="3.6576" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="1.6002" x2="1.8542" y2="1.5748" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="21"/>
+<text x="-2.271390625" y="3.563990625" size="0.8128" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="0" y="0" size="0.5" layer="51" ratio="10" rot="SR0" align="center">&gt;NAME</text>
+<smd name="1" x="-3.2004" y="2.3114" dx="1.6256" dy="0.889" layer="1"/>
+<smd name="2" x="-3.2004" y="0" dx="1.6256" dy="0.889" layer="1"/>
+<smd name="3" x="-3.2004" y="-2.3114" dx="1.6256" dy="0.889" layer="1"/>
+<smd name="4" x="3.2004" y="0" dx="1.6256" dy="3.175" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -2196,7 +2195,7 @@ chip</description>
 <packageinstance name="IND_TAIYO_LBMF1608"/>
 </packageinstances>
 </package3d>
-<package3d name="TE_1909763-1" urn="urn:adsk.eagle:package:19061976/4" type="model" library_version="94" library_locally_modified="yes">
+<package3d name="TE_1909763-1" urn="urn:adsk.eagle:package:19061976/5" type="model" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TE_1909763-1"/>
 </packageinstances>
@@ -2249,7 +2248,7 @@ chip</description>
 <packageinstance name="NORDIC_NRF9160-SICA-R"/>
 </packageinstances>
 </package3d>
-<package3d name="MOLEX_104224-0820" urn="urn:adsk.eagle:package:19415237/3" type="model" library_version="94">
+<package3d name="MOLEX_104224-0820" urn="urn:adsk.eagle:package:19415237/3" type="model" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MOLEX_104224-0820"/>
 </packageinstances>
@@ -2324,12 +2323,12 @@ chip</description>
 <packageinstance name="DFN10_2P7X2P7-L"/>
 </packageinstances>
 </package3d>
-<package3d name="XTAL320X150X90" urn="urn:adsk.eagle:package:13629267/2" type="box" library_version="94" library_locally_modified="yes">
+<package3d name="XTAL320X150X90" urn="urn:adsk.eagle:package:13629267/3" type="box" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="XTAL320X150X90"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT363" urn="urn:adsk.eagle:package:5807345/8" type="model" library_version="94" library_locally_modified="yes">
+<package3d name="SOT363" urn="urn:adsk.eagle:package:5807345/9" type="model" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SOT363"/>
 </packageinstances>
@@ -2356,17 +2355,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <packageinstance name="SOT23-6"/>
 </packageinstances>
 </package3d>
-<package3d name="R1206" urn="urn:adsk.eagle:package:7744986/3" type="model" library_version="94" library_locally_modified="yes">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:7419926/3" locally_modified="yes" type="model" library_version="94" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="SOT230P700X180-4N"/>
-</packageinstances>
-</package3d>
 <package3d name="LED0603" urn="urn:adsk.eagle:package:7134381/5" type="model" library_version="94" library_locally_modified="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -2390,9 +2378,53 @@ chip</description>
 <packageinstance name="SOLDER_2X2.5_HALF_VIA"/>
 </packageinstances>
 </package3d>
-<package3d name="PQFN50P200X200100-12N" urn="urn:adsk.eagle:package:5807341/2" type="box" library_version="94" library_locally_modified="yes">
+<package3d name="PQFN50P200X200100-12N" urn="urn:adsk.eagle:package:5807341/2" type="box" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="PQFN50P200X200100-12N"/>
+</packageinstances>
+</package3d>
+<package3d name="R1206" urn="urn:adsk.eagle:package:7744986/4" type="model" library_version="95" library_locally_modified="yes">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="R1206"/>
+</packageinstances>
+</package3d>
+<package3d name="RESC6332X70N" urn="urn:adsk.eagle:package:24898412/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="RESC6332X70N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:7419926/7" type="model" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SOT230P700X180-4N"/>
+</packageinstances>
+</package3d>
+<package3d name="MOLEX_1050170001-NO-PAD" urn="urn:adsk.eagle:package:24898417/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="MOLEX_1050170001-NO-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="LED_EAST1005" urn="urn:adsk.eagle:package:24898425/1" type="box" library_version="95" library_locally_modified="yes">
+<description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
+chip 0402</description>
+<packageinstances>
+<packageinstance name="LED_EAST1005"/>
+</packageinstances>
+</package3d>
+<package3d name="TP-1P0" urn="urn:adsk.eagle:package:24898411/1" type="box" library_version="95" library_locally_modified="yes">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="TP-1P0"/>
+</packageinstances>
+</package3d>
+<package3d name="JUMPER-ROUND-NC" urn="urn:adsk.eagle:package:24898428/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="JUMPER-ROUND-NC"/>
+</packageinstances>
+</package3d>
+<package3d name="JUMPER-ROUND-3-NO-R" urn="urn:adsk.eagle:package:24898429/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="JUMPER-ROUND-3-NO-R"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3007,7 +3039,7 @@ chip</description>
 <pin name="VDD" x="-2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="VDD_IO" x="2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="JUMPER_2_NC_TRACE" library_version="94" library_locally_modified="yes">
+<symbol name="JUMPER_2_NC_TRACE" urn="urn:adsk.eagle:symbol:24898385/1" library_version="95" library_locally_modified="yes">
 <wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
 <wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
@@ -3019,7 +3051,7 @@ chip</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="JUMPER_3_1-NC_TRACE" library_version="94" library_locally_modified="yes">
+<symbol name="JUMPER_3_1-NC_TRACE" urn="urn:adsk.eagle:symbol:24898386/1" library_version="95" library_locally_modified="yes">
 <wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
 <wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
@@ -3075,7 +3107,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCB" urn="urn:adsk.eagle:component:10610062/7" locally_modified="yes" prefix="PCB" library_version="94" library_locally_modified="yes">
+<deviceset name="PCB" urn="urn:adsk.eagle:component:10610062/8" prefix="PCB" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PLACEHOLDER" x="0" y="0"/>
 </gates>
@@ -3122,7 +3154,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-HEADER-1X12" urn="urn:adsk.eagle:component:14295478/10" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-HEADER-1X12" urn="urn:adsk.eagle:component:14295478/11" prefix="J" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CON-HEADER-1X12" x="0" y="0"/>
 </gates>
@@ -3214,7 +3246,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-HEADER-1X16" urn="urn:adsk.eagle:component:14295479/9" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-HEADER-1X16" urn="urn:adsk.eagle:component:14295479/10" prefix="J" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="CON-HEADER-1X16" x="0" y="0"/>
 </gates>
@@ -3322,7 +3354,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES" urn="urn:adsk.eagle:component:5807375/17" locally_modified="yes" prefix="R" library_version="94" library_locally_modified="yes">
+<deviceset name="RES" urn="urn:adsk.eagle:component:5807375/18" prefix="R" library_version="95" library_locally_modified="yes">
 <description>RESISTOR</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -3922,7 +3954,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7744986/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7744986/4"/>
 </package3dinstances>
 <technologies>
 <technology name="-2R-1%">
@@ -3940,6 +3972,9 @@ chip</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898412/1"/>
+</package3dinstances>
 <technologies>
 <technology name="-2.49-1%">
 <attribute name="DESC" value="RES 2.49 OHM 1% 2W 2512" constant="no"/>
@@ -3961,7 +3996,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP" urn="urn:adsk.eagle:component:7419954/16" locally_modified="yes" prefix="C" library_version="94" library_locally_modified="yes">
+<deviceset name="CAP" urn="urn:adsk.eagle:component:7419954/17" prefix="C" library_version="95" library_locally_modified="yes">
 <description>CAPACITOR</description>
 <gates>
 <gate name="A" symbol="CAPV" x="0" y="0" swaplevel="1"/>
@@ -4233,7 +4268,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-P" urn="urn:adsk.eagle:component:9103362/5" locally_modified="yes" prefix="Q" library_version="94" library_locally_modified="yes">
+<deviceset name="MOSFET-P" urn="urn:adsk.eagle:component:9103362/6" prefix="Q" library_version="95" library_locally_modified="yes">
 <description>MOSFET P-CH</description>
 <gates>
 <gate name="G$1" symbol="MOSFET-P" x="0" y="0"/>
@@ -4273,7 +4308,7 @@ chip</description>
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7419926/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7419926/7"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4302,7 +4337,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/10" locally_modified="yes" prefix="D" library_version="94" library_locally_modified="yes">
+<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/11" prefix="D" library_version="95" library_locally_modified="yes">
 <description>DIODE SCHOTTKY 40V 3A MINI2</description>
 <gates>
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
@@ -4344,7 +4379,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND" urn="urn:adsk.eagle:component:7932822/7" locally_modified="yes" prefix="L" library_version="94" library_locally_modified="yes">
+<deviceset name="IND" urn="urn:adsk.eagle:component:7932822/8" prefix="L" library_version="95" library_locally_modified="yes">
 <description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -4471,7 +4506,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-1909763-1" urn="urn:adsk.eagle:component:19061994/3" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-1909763-1" urn="urn:adsk.eagle:component:19061994/4" prefix="J" library_version="95" library_locally_modified="yes">
 <description>VAO ITEM, MINI RF HEADER</description>
 <gates>
 <gate name="G$1" symbol="1909763-1" x="0" y="0"/>
@@ -4483,7 +4518,7 @@ chip</description>
 <connect gate="G$1" pin="SIG" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19061976/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19061976/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4496,7 +4531,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOD-NRF9160-SICA-R" urn="urn:adsk.eagle:component:19415245/2" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="MOD-NRF9160-SICA-R" urn="urn:adsk.eagle:component:19415245/3" prefix="U" library_version="95" library_locally_modified="yes">
 <description>NRF9160-SICA-R</description>
 <gates>
 <gate name="G$1" symbol="NRF9160-SICA-R" x="0" y="0"/>
@@ -4577,7 +4612,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-SIM" urn="urn:adsk.eagle:component:19415246/2" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-SIM" urn="urn:adsk.eagle:component:19415246/3" prefix="J" library_version="95" library_locally_modified="yes">
 <description>Conn SIM SKT 6 POS 2.54mm Solder RA SMD</description>
 <gates>
 <gate name="G$1" symbol="104224-0820" x="0" y="0"/>
@@ -4608,7 +4643,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SW-EVP-AA402W" urn="urn:adsk.eagle:component:19415253/2" locally_modified="yes" prefix="SW" library_version="94" library_locally_modified="yes">
+<deviceset name="SW-EVP-AA402W" urn="urn:adsk.eagle:component:19415253/3" prefix="SW" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SW-SPST-NO" x="0" y="0"/>
 </gates>
@@ -4631,7 +4666,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FLASH" urn="urn:adsk.eagle:component:12411137/6" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="FLASH" urn="urn:adsk.eagle:component:12411137/7" prefix="U" library_version="95" library_locally_modified="yes">
 <description>NOR FLASH</description>
 <gates>
 <gate name="G$1" symbol="FLASH" x="0" y="-2.54"/>
@@ -4689,7 +4724,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-USB" urn="urn:adsk.eagle:component:20031022/1" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-USB" urn="urn:adsk.eagle:component:20031022/2" prefix="J" library_version="95" library_locally_modified="yes">
 <description>Conn.; Data; USB; Recept.; Micro; B Type; Bottom Mount, SMT, with Solder Tabs, Lead-Free</description>
 <gates>
 <gate name="G$1" symbol="1050170001" x="0" y="0"/>
@@ -4704,6 +4739,9 @@ chip</description>
 <connect gate="G$1" pin="SHIELD" pad="SH1 SH2 SH3 SH8 SH9 SH10"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898417/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="Unavailable"/>
@@ -4757,7 +4795,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED" urn="urn:adsk.eagle:component:19415250/3" locally_modified="yes" prefix="D" library_version="94" library_locally_modified="yes">
+<deviceset name="LED" urn="urn:adsk.eagle:component:19415250/4" locally_modified="yes" prefix="D" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="2.54"/>
 </gates>
@@ -4777,6 +4815,12 @@ chip</description>
 <attribute name="MPN" value="EAST16084BA8" constant="no"/>
 <attribute name="VALUE" value="BLUE" constant="no"/>
 </technology>
+<technology name="-ORANGE">
+<attribute name="DESC" value="LED ORANGE CLEAR 2SMD" constant="no"/>
+<attribute name="DIGIKEYPN" value="19-217/S2C-AM2N2VY/3T" constant="no"/>
+<attribute name="MPN" value="19-217/S2C-AM2N2VY/3T" constant="no"/>
+<attribute name="VALUE" value="ORANGE" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-0402" package="LED_EAST1005">
@@ -4784,6 +4828,9 @@ chip</description>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898425/1"/>
+</package3dinstances>
 <technologies>
 <technology name="-BLUE">
 <attribute name="DESC" value="LED BLUE CLEAR 2SMD" constant="no"/>
@@ -4801,7 +4848,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-STBC08PMR" urn="urn:adsk.eagle:component:19415251/2" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="IC-STBC08PMR" urn="urn:adsk.eagle:component:19415251/3" prefix="U" library_version="95" library_locally_modified="yes">
 <description>STBC08 Series 6.5 V Single Standalone Linear Li-Ion Battery Charger - DFN-6</description>
 <gates>
 <gate name="G$1" symbol="STBC08PMR" x="0" y="0"/>
@@ -4831,7 +4878,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-DUAL-COMP" urn="urn:adsk.eagle:component:10610056/3" locally_modified="yes" prefix="Q" library_version="94" library_locally_modified="yes">
+<deviceset name="MOSFET-DUAL-COMP" urn="urn:adsk.eagle:component:10610056/4" prefix="Q" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="MOSFET-N" x="-17.78" y="-2.54"/>
 <gate name="B" symbol="MOSFET-P" x="12.7" y="-2.54"/>
@@ -4879,7 +4926,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-0002" urn="urn:adsk.eagle:component:5807424/4" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-TC2030-MCP-NL" urn="urn:adsk.eagle:component:5807424/5" prefix="J" library_version="95" library_locally_modified="yes">
 <description>&lt;p&gt;CONN TAG CONNECT PROG&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CON-TC2030-MCP-NL" x="0" y="0"/>
@@ -4906,7 +4953,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-S2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:19415252/2" locally_modified="yes" prefix="J" library_version="94" library_locally_modified="yes">
+<deviceset name="CON-S2B-PH-SM4-TB(LF)(SN)" urn="urn:adsk.eagle:component:19415252/3" prefix="J" library_version="95" library_locally_modified="yes">
 <description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header</description>
 <gates>
 <gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
@@ -4932,7 +4979,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-N" urn="urn:adsk.eagle:component:19061993/4" locally_modified="yes" prefix="Q" library_version="94" library_locally_modified="yes">
+<deviceset name="MOSFET-N" urn="urn:adsk.eagle:component:19061993/5" prefix="Q" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="MOSFET-N" x="-2.54" y="0"/>
 </gates>
@@ -5037,7 +5084,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:component:20031053/1" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="IC-CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:component:20031053/2" prefix="U" library_version="95" library_locally_modified="yes">
 <description>IC USB TO UART BRIDGE QFN20</description>
 <gates>
 <gate name="G$1" symbol="CP2102N-A02-GQFN20R" x="0" y="0"/>
@@ -5078,7 +5125,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-TPD4S012DRYR" urn="urn:adsk.eagle:component:20031057/1" locally_modified="yes" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="IC-TPD4S012DRYR" urn="urn:adsk.eagle:component:20031057/2" prefix="U" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="TPD4S012DRYR" x="0" y="0"/>
 </gates>
@@ -5135,7 +5182,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="XTAL-ABS07AIG-32.768KHZ-7-T" urn="urn:adsk.eagle:component:13629287/3" locally_modified="yes" prefix="Y" library_version="94" library_locally_modified="yes">
+<deviceset name="XTAL-ABS07AIG-32.768KHZ-7-T" urn="urn:adsk.eagle:component:13629287/4" prefix="Y" library_version="95" library_locally_modified="yes">
 <description>ABS07 Series 32.768 kHz ±20 ppm 12.5 pF -40 to +85 C SMT Low Profile Crystal</description>
 <gates>
 <gate name="G$1" symbol="ABS07AIG-32.768KHZ-7-T" x="0" y="0"/>
@@ -5147,7 +5194,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13629267/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13629267/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5160,7 +5207,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-BAV70S" urn="urn:adsk.eagle:component:19415247/2" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="IC-BAV70S" urn="urn:adsk.eagle:component:19415247/3" prefix="U" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="DIODE2A" x="0" y="7.62"/>
 <gate name="G$2" symbol="DIODE2A" x="0" y="-7.62"/>
@@ -5176,7 +5223,7 @@ chip</description>
 <connect gate="G$2" pin="C" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5189,7 +5236,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDER" urn="urn:adsk.eagle:component:15352579/2" locally_modified="yes" prefix="SOLDER" library_version="94" library_locally_modified="yes">
+<deviceset name="SOLDER" urn="urn:adsk.eagle:component:15352579/3" prefix="SOLDER" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PLACEHOLDER" x="0" y="0"/>
 </gates>
@@ -5218,7 +5265,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER-SWITCH" urn="urn:adsk.eagle:component:8729597/7" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="POWER-SWITCH" urn="urn:adsk.eagle:component:8729597/8" prefix="U" library_version="95" library_locally_modified="yes">
 <description>IC SWITCH</description>
 <gates>
 <gate name="G$1" symbol="POWER_SW_EN" x="0" y="0"/>
@@ -5232,7 +5279,7 @@ chip</description>
 <connect gate="G$1" pin="VOUT" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5268,7 +5315,7 @@ chip</description>
 <connect gate="G$1" pin="VOUT" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5303,7 +5350,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP" urn="urn:adsk.eagle:component:5807409/7" locally_modified="yes" prefix="TP" library_version="94" library_locally_modified="yes">
+<deviceset name="TP" urn="urn:adsk.eagle:component:5807409/8" prefix="TP" library_version="95" library_locally_modified="yes">
 <description>TEST POINT</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
@@ -5350,13 +5397,16 @@ chip</description>
 <connects>
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-LIS2DH12TR" urn="urn:adsk.eagle:component:5807440/3" prefix="U" library_version="94" library_locally_modified="yes">
+<deviceset name="IC-LIS2DH12TR" urn="urn:adsk.eagle:component:5807440/3" prefix="U" library_version="95" library_locally_modified="yes">
 <description>ACCEL 2-16G I2C/SPI 12LGA</description>
 <gates>
 <gate name="G$1" symbol="IC-LIS2DH12TR" x="0" y="0"/>
@@ -5394,7 +5444,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ASSY-COST" urn="urn:adsk.eagle:component:15352580/3" locally_modified="yes" prefix="ASSEMBLY" library_version="94" library_locally_modified="yes">
+<deviceset name="ASSY-COST" urn="urn:adsk.eagle:component:15352580/4" prefix="ASSEMBLY" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PLACEHOLDER" x="0" y="0"/>
 </gates>
@@ -5435,7 +5485,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-NC" prefix="JMP" library_version="94" library_locally_modified="yes">
+<deviceset name="JUMPER-NC" urn="urn:adsk.eagle:component:24898442/1" prefix="JMP" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="JUMPER_2_NC_TRACE" x="0" y="0"/>
 </gates>
@@ -5445,13 +5495,16 @@ chip</description>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898428/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-3/1" prefix="JMP" library_version="94" library_locally_modified="yes">
+<deviceset name="JUMPER-3/1" urn="urn:adsk.eagle:component:24898443/1" prefix="JMP" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="JUMPER_3_1-NC_TRACE" x="0" y="0"/>
 </gates>
@@ -5462,6 +5515,9 @@ chip</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898429/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5644,7 +5700,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-15P-50V" value="15p"/>
 <part name="L1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="-0402" package3d_urn="urn:adsk.eagle:package:7419905/4" technology="-39NH-250MA" value="39n"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
+<part name="J4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/5"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOD-NRF9160-SICA-R" device="" package3d_urn="urn:adsk.eagle:package:19415236/5"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5665,7 +5721,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-USB" device="-1050170001" override_package3d_urn="urn:adsk.eagle:package:21520796/2" override_package_urn="urn:adsk.eagle:footprint:21520798/1" override_locally_modified="yes"/>
+<part name="J1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-USB" device="-1050170001" package3d_urn="urn:adsk.eagle:package:24898417/1" override_package3d_urn="urn:adsk.eagle:package:21520796/2" override_package_urn="urn:adsk.eagle:footprint:21520798/1" override_locally_modified="yes"/>
 <part name="P+13" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-330-5%" value="330"/>
@@ -5673,7 +5729,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-TPS6303" device="" package3d_urn="urn:adsk.eagle:package:19061977/3" technology="1DSKR"/>
 <part name="P+14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
-<part name="D3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" technology="-BLUE"/>
+<part name="D3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:24898425/1" technology="-BLUE"/>
 <part name="U7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-STBC08PMR" device="" package3d_urn="urn:adsk.eagle:package:8172022/5"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
@@ -5682,11 +5738,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R14" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-330-5%" value="330"/>
-<part name="D4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" override_package3d_urn="urn:adsk.eagle:package:19417028/3" override_package_urn="urn:adsk.eagle:footprint:15730962/2" override_locally_modified="yes" technology="-ORANGE" value="LED-ORANGE-0402"/>
+<part name="D4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="LED" device="-0402" package3d_urn="urn:adsk.eagle:package:24898425/1" override_package3d_urn="urn:adsk.eagle:package:19417028/3" override_package_urn="urn:adsk.eagle:footprint:15730962/2" override_locally_modified="yes" technology="-ORANGE" value="LED-ORANGE-0402"/>
 <part name="C11" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-1U-25V-1" value="1u"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-DUAL-COMP" device="-SOT563" package3d_urn="urn:adsk.eagle:package:10610052/1" override_package3d_urn="urn:adsk.eagle:package:10610052/2" override_package_urn="urn:adsk.eagle:footprint:10610048/1" value="MOSFET-DUAL-COMP-SOT563"/>
-<part name="J9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-0002" device="" package3d_urn="urn:adsk.eagle:package:5807306/4" override_package3d_urn="urn:adsk.eagle:package:5807306/5" override_package_urn="urn:adsk.eagle:footprint:5807295/3">
+<part name="J9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-TC2030-MCP-NL" device="" package3d_urn="urn:adsk.eagle:package:5807306/4" override_package3d_urn="urn:adsk.eagle:package:5807306/5" override_package_urn="urn:adsk.eagle:footprint:5807295/3">
 <variant name="Production" populate="no"/>
 </part>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -5724,7 +5780,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R15" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-22.1K-1%" value="22.1k"/>
 <part name="R16" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-47.5K-1%" value="47.5k"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/4"/>
+<part name="J7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-1909763-1" device="" package3d_urn="urn:adsk.eagle:package:19061976/5"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="-0402" package3d_urn="urn:adsk.eagle:package:7419905/4" technology="-68NH-200MA" value="68n"/>
 <part name="C12" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-56PF-50V-1" value="56p"/>
@@ -5738,7 +5794,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
-<part name="Y1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="XTAL-ABS07AIG-32.768KHZ-7-T" device="" package3d_urn="urn:adsk.eagle:package:13629267/2" override_package3d_urn="urn:adsk.eagle:package:12413972/3" override_package_urn="urn:adsk.eagle:footprint:12413973/1" override_locally_modified="yes"/>
+<part name="Y1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="XTAL-ABS07AIG-32.768KHZ-7-T" device="" package3d_urn="urn:adsk.eagle:package:13629267/3" override_package3d_urn="urn:adsk.eagle:package:12413972/3" override_package_urn="urn:adsk.eagle:footprint:12413973/1" override_locally_modified="yes"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
@@ -5748,7 +5804,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R17" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-20K-1%" value="20k"/>
 <part name="R18" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-20K-1%" value="20k"/>
 <part name="P+20" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
-<part name="U9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-BAV70S" device="" package3d_urn="urn:adsk.eagle:package:5807345/8"/>
+<part name="U9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-BAV70S" device="" package3d_urn="urn:adsk.eagle:package:5807345/9"/>
 <part name="R1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-100K-1%" value="100k"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -5759,15 +5815,15 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="POWER-SWITCH" device="-MIC94092YC6" package3d_urn="urn:adsk.eagle:package:5807345/8"/>
+<part name="U4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="POWER-SWITCH" device="-MIC94092YC6" package3d_urn="urn:adsk.eagle:package:5807345/9"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-15P-50V" value="15p">
 <variant name="Production" populate="no"/>
 </part>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="TP1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0"/>
-<part name="TP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0"/>
-<part name="U10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-LIS2DH12TR" device="" package3d_urn="urn:adsk.eagle:package:5807341/2" override_package3d_urn="urn:adsk.eagle:package:5807341/3" override_package_urn="urn:adsk.eagle:footprint:5807301/2"/>
+<part name="TP1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="U10" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-LIS2DH12TR" device="" package3d_urn="urn:adsk.eagle:package:5807341/2" override_package3d_urn="urn:adsk.eagle:package:5807341/3" override_package_urn="urn:adsk.eagle:footprint:5807301/2" override_locally_modified="yes"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C18" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-0.1U-50V" value="0.1u"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -5778,8 +5834,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="ASSEMBLY1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="ASSY-COST" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-NRF91-FEATHER"/>
 <part name="P+21" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
-<part name="JMP1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NC" device=""/>
-<part name="JMP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-3/1" device=""/>
+<part name="JMP1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NC" device="" package3d_urn="urn:adsk.eagle:package:24898428/1"/>
+<part name="JMP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-3/1" device="" package3d_urn="urn:adsk.eagle:package:24898429/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7570,7 +7626,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="180.34" y="45.72" size="5.08" layer="97">D7 Blue LED</text>
 <text x="177.8" y="119.38" size="1.778" layer="97">3.0V - 5.5V</text>
 <text x="330.2" y="76.2" size="1.778" layer="97">2.7-3.6V (abs max 4.6)</text>
-<text x="58.42" y="134.62" size="6.4516" layer="97">X</text>
 <text x="335.28" y="91.44" size="6.4516" layer="97">X</text>
 <text x="83.82" y="198.12" size="5.08" layer="97">GPS ant</text>
 <wire x1="311.965" y1="8.575709375" x2="311.965" y2="9.81686875" width="0" layer="97"/>
