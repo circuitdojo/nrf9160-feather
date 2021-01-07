@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1936,18 +1936,18 @@ chip</description>
 <text x="-2.305059375" y="1.5036" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <circle x="-1.35" y="0.8" radius="0.05" width="0.1" layer="21"/>
 <circle x="-1.35" y="0.8" radius="0.05" width="0.1" layer="51"/>
-<smd name="2" x="-0.875" y="0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="3" x="-0.875" y="-0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="1" x="-0.875" y="0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="4" x="-0.875" y="-0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="10" x="0.875" y="0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="9" x="0.875" y="0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="8" x="0.875" y="-0.25" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="7" x="0.875" y="-0.75" dx="0.575" dy="0.35" layer="1" roundness="30"/>
-<smd name="12" x="-0.25" y="0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
-<smd name="11" x="0.25" y="0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
-<smd name="6" x="0.25" y="-0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
-<smd name="5" x="-0.25" y="-0.875" dx="0.575" dy="0.35" layer="1" roundness="30" rot="R90"/>
+<smd name="2" x="-0.875" y="0.25" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="3" x="-0.875" y="-0.25" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="1" x="-0.875" y="0.75" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="4" x="-0.875" y="-0.75" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="10" x="0.875" y="0.75" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="9" x="0.875" y="0.25" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="8" x="0.875" y="-0.25" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="7" x="0.875" y="-0.75" dx="0.575" dy="0.268" layer="1" roundness="30"/>
+<smd name="12" x="-0.25" y="0.875" dx="0.575" dy="0.268" layer="1" roundness="30" rot="R90"/>
+<smd name="11" x="0.25" y="0.875" dx="0.575" dy="0.268" layer="1" roundness="30" rot="R90"/>
+<smd name="6" x="0.25" y="-0.875" dx="0.575" dy="0.268" layer="1" roundness="30" rot="R90"/>
+<smd name="5" x="-0.25" y="-0.875" dx="0.575" dy="0.268" layer="1" roundness="30" rot="R90"/>
 <polygon width="0.127" layer="41">
 <vertex x="-0.5" y="0.5"/>
 <vertex x="-0.5" y="-0.5"/>
@@ -5836,6 +5836,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+21" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="JMP1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NC" device="" package3d_urn="urn:adsk.eagle:package:24898428/1"/>
 <part name="JMP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-3/1" device="" package3d_urn="urn:adsk.eagle:package:24898429/1"/>
+<part name="TP3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
+<part name="TP6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8490,6 +8494,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="TP2" gate="G$1" x="81.28" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="82.55" y="130.81" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="TP3" gate="G$1" x="345.44" y="187.96" smashed="yes">
+<attribute name="NAME" x="344.17" y="189.23" size="1.778" layer="95"/>
+</instance>
+<instance part="TP4" gate="G$1" x="345.44" y="180.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.71" y="179.07" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="TP5" gate="G$1" x="383.54" y="195.58" smashed="yes">
+<attribute name="NAME" x="382.27" y="196.85" size="1.778" layer="95"/>
+</instance>
+<instance part="TP6" gate="G$1" x="383.54" y="187.96" smashed="yes">
+<attribute name="NAME" x="382.27" y="189.23" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8666,9 +8682,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SIM_CLK" class="0">
 <segment>
-<wire x1="350.52" y1="185.42" x2="332.74" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="185.42" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
 <label x="332.74" y="185.42" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="CLK"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="345.44" y1="185.42" x2="332.74" y2="185.42" width="0.1524" layer="91"/>
+<junction x="345.44" y="185.42"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="203.2" x2="241.3" y2="203.2" width="0.1524" layer="91"/>
@@ -8678,9 +8697,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SIM_RST" class="0">
 <segment>
-<wire x1="350.52" y1="182.88" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="182.88" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
 <label x="332.74" y="182.88" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="RST"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="345.44" y1="182.88" x2="332.74" y2="182.88" width="0.1524" layer="91"/>
+<junction x="345.44" y="182.88"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="198.12" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
@@ -8691,8 +8713,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="SIM_IO" class="0">
 <segment>
 <label x="396.24" y="185.42" size="1.778" layer="95" rot="MR0"/>
-<wire x1="381" y1="185.42" x2="396.24" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="381" y1="185.42" x2="383.54" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="I/O"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
+<wire x1="383.54" y1="185.42" x2="396.24" y2="185.42" width="0.1524" layer="91"/>
+<junction x="383.54" y="185.42"/>
 </segment>
 <segment>
 <label x="241.3" y="200.66" size="1.778" layer="95" rot="MR0"/>
@@ -8702,9 +8727,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SIM_VCC" class="0">
 <segment>
-<wire x1="381" y1="193.04" x2="396.24" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="381" y1="193.04" x2="383.54" y2="193.04" width="0.1524" layer="91"/>
 <label x="396.24" y="193.04" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J5" gate="G$1" pin="VCC"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="383.54" y1="193.04" x2="396.24" y2="193.04" width="0.1524" layer="91"/>
+<junction x="383.54" y="193.04"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="218.44" x2="238.76" y2="218.44" width="0.1524" layer="91"/>
@@ -9140,11 +9168,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="99.06" y1="220.98" x2="93.98" y2="220.98" width="0.1524" layer="91"/>
 <junction x="93.98" y="220.98"/>
 <label x="86.36" y="243.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
