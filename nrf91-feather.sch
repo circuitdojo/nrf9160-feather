@@ -1206,7 +1206,7 @@ chip</description>
 <smd name="4" x="0.65" y="2.35" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="5" x="1.3" y="2.35" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 </package>
-<package name="DSK0010A" urn="urn:adsk.eagle:footprint:19061958/2" library_version="94">
+<package name="DSK0010A" urn="urn:adsk.eagle:footprint:19061958/2" locally_modified="yes" library_version="95" library_locally_modified="yes">
 <smd name="1" x="-1.15" y="1.000003125" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
 <smd name="2" x="-1.15" y="0.5" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
 <smd name="3" x="-1.15" y="0.000003125" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
@@ -1217,7 +1217,7 @@ chip</description>
 <smd name="8" x="1.15" y="0.000003125" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
 <smd name="9" x="1.15" y="0.5" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
 <smd name="10" x="1.15" y="1.000003125" dx="0.6" dy="0.25" layer="1" roundness="100" rot="R180"/>
-<smd name="11" x="0" y="0" dx="1.2" dy="2" layer="1"/>
+<smd name="11" x="0" y="0" dx="1.2" dy="2" layer="1" cream="no"/>
 <wire x1="-1.2954" y1="-1.2954" x2="-1.2954" y2="1.2954" width="0.1524" layer="51"/>
 <wire x1="-1.2954" y1="1.2954" x2="1.2954" y2="1.2954" width="0.1524" layer="51"/>
 <wire x1="1.2954" y1="-1.2954" x2="1.2954" y2="1.2954" width="0.1524" layer="51"/>
@@ -1229,10 +1229,10 @@ chip</description>
 <wire x1="-1.2954" y1="-1.4478" x2="-0.9398" y2="-1.4478" width="0.2032" layer="21"/>
 <wire x1="-1.2954" y1="1.4478" x2="-0.381" y2="1.4478" width="0.2032" layer="21"/>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.563" y="-0.8945"/>
-<vertex x="0.563" y="-0.8945"/>
-<vertex x="0.563" y="0.894503125"/>
-<vertex x="-0.563" y="0.894503125"/>
+<vertex x="-0.36" y="-0.6"/>
+<vertex x="0.36" y="-0.6"/>
+<vertex x="0.36" y="0.6"/>
+<vertex x="-0.36" y="0.6"/>
 </polygon>
 <polygon width="0.0254" layer="29">
 <vertex x="0.2" y="-1.0635"/>
@@ -1696,7 +1696,7 @@ chip 0402</description>
 <smd name="3" x="-0.315" y="-0.5" dx="0.42" dy="0.31" layer="1"/>
 <smd name="1" x="-0.3" y="0.5" dx="0.45" dy="0.31" layer="1"/>
 </package>
-<package name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:footprint:13629242/2" library_version="94">
+<package name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:footprint:13629242/2" locally_modified="yes" library_version="95" library_locally_modified="yes">
 <smd name="1" x="-1.2446" y="1" dx="0.2032" dy="0.6096" layer="1" rot="R270"/>
 <smd name="2" x="-1.2446" y="0.5" dx="0.2032" dy="0.6096" layer="1" rot="R270"/>
 <smd name="3" x="-1.2446" y="0" dx="0.2032" dy="0.6096" layer="1" rot="R270"/>
@@ -1755,10 +1755,10 @@ chip 0402</description>
 <wire x1="1.2954" y1="1.2954" x2="-1.2954" y2="1.2954" width="0.1524" layer="51"/>
 <wire x1="-1.2954" y1="1.2954" x2="-1.2954" y2="-1.2954" width="0.1524" layer="51"/>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.6223" y="1.0795"/>
-<vertex x="-0.6223" y="-1.0795"/>
-<vertex x="0.6223" y="-1.0795"/>
-<vertex x="0.6223" y="1.0795"/>
+<vertex x="-0.33325" y="0.6477"/>
+<vertex x="-0.33325" y="-0.6477"/>
+<vertex x="0.33325" y="-0.6477"/>
+<vertex x="0.33325" y="0.6477"/>
 </polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="0" y="0" locked="yes" size="0.2" layer="51" ratio="6" align="center">&gt;NAME</text>
@@ -2205,7 +2205,7 @@ chip</description>
 <packageinstance name="SOIC127P600X175-8N"/>
 </packageinstances>
 </package3d>
-<package3d name="DSK0010A" urn="urn:adsk.eagle:package:19061977/3" type="model" library_version="94">
+<package3d name="DSK0010A" urn="urn:adsk.eagle:package:19061977/3" type="model" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DSK0010A"/>
 </packageinstances>
@@ -2318,7 +2318,7 @@ chip</description>
 <packageinstance name="CON-HEADER-1X16-MALE-PIN"/>
 </packageinstances>
 </package3d>
-<package3d name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:package:13629266/2" type="box" library_version="94">
+<package3d name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:package:13629266/2" type="box" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DFN10_2P7X2P7-L"/>
 </packageinstances>
@@ -4756,7 +4756,7 @@ chip 0402</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-TPS6303" urn="urn:adsk.eagle:component:19061995/3" prefix="U" library_version="94">
+<deviceset name="IC-TPS6303" urn="urn:adsk.eagle:component:19061995/3" prefix="U" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="TPS63030DSK" x="0" y="0"/>
 </gates>
@@ -5151,7 +5151,7 @@ chip 0402</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-PCF85063ATL/1" urn="urn:adsk.eagle:component:13629286/4" prefix="U" library_version="94">
+<deviceset name="IC-PCF85063ATL/1" urn="urn:adsk.eagle:component:13629286/4" prefix="U" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="PCF85063ATL/1" x="0" y="0"/>
 </gates>
