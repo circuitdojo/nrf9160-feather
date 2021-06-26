@@ -1833,6 +1833,49 @@ chip 0402</description>
 <smd name="1" x="-1.2192" y="0" dx="1.0922" dy="1.905" layer="1"/>
 <smd name="2" x="1.2192" y="0" dx="1.0922" dy="1.905" layer="1"/>
 </package>
+<package name="SOT353" urn="urn:adsk.eagle:footprint:19061962/1" locally_modified="yes" library_version="95" library_locally_modified="yes">
+<smd name="1" x="-0.8" y="0.65" dx="0.7" dy="0.3" layer="1"/>
+<smd name="2" x="-0.8" y="0" dx="0.7" dy="0.3" layer="1"/>
+<smd name="3" x="-0.8" y="-0.65" dx="0.7" dy="0.3" layer="1"/>
+<smd name="4" x="0.8" y="-0.65" dx="0.7" dy="0.3" layer="1"/>
+<smd name="5" x="0.8" y="0.65" dx="0.7" dy="0.3" layer="1"/>
+<wire x1="-0.6604" y1="0.508" x2="-0.6604" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="0.8128" x2="-1.1176" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="0.8128" x2="-1.1176" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="0.508" x2="-0.6604" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="-0.1524" x2="-0.6604" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="0.1524" x2="-1.1176" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="0.1524" x2="-1.1176" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="-0.1524" x2="-0.6604" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="-0.8128" x2="-0.6604" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="-0.508" x2="-1.1176" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="-0.508" x2="-1.1176" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="-0.8128" x2="-0.6604" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="-0.508" x2="0.6604" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="-0.8128" x2="1.1176" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="-0.8128" x2="1.1176" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="-0.508" x2="0.6604" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="0.1524" x2="0.6604" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="-0.1524" x2="1.1176" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="-0.1524" x2="1.1176" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="0.1524" x2="0.6604" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="0.8128" x2="0.6604" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="0.508" x2="1.1176" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="0.508" x2="1.1176" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="0.8128" x2="0.6604" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="-1.1176" x2="0.6604" y2="-1.1176" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="-1.1176" x2="0.6604" y2="1.1176" width="0.1524" layer="51"/>
+<wire x1="0.6604" y1="1.1176" x2="0.3048" y2="1.1176" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.1176" x2="-0.6604" y2="1.1176" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="1.1176" x2="-0.6604" y2="-1.1176" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.1176" x2="-0.3048" y2="1.0922" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.8128" y1="-1.2192" x2="0.8128" y2="-1.2192" width="0.1524" layer="21"/>
+<wire x1="0.8128" y1="-0.127" x2="0.8128" y2="0.127" width="0.1524" layer="21"/>
+<wire x1="0.8128" y1="1.2192" x2="-0.8128" y2="1.2192" width="0.1524" layer="21"/>
+<text x="-0.8636" y="-0.254" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<circle x="-1.6" y="0.8" radius="0.1" width="0.2" layer="21"/>
+</package>
 <package name="SOT363" urn="urn:adsk.eagle:footprint:5807305/7" library_version="95" library_locally_modified="yes">
 <wire x1="-1.1" y1="0.55" x2="1.1" y2="0.55" width="0.2032" layer="51"/>
 <wire x1="1.1" y1="-0.55" x2="-1.1" y2="-0.55" width="0.2032" layer="51"/>
@@ -1856,62 +1899,6 @@ chip 0402</description>
 <smd name="4" x="0.65" y="0.8" dx="0.3" dy="0.7" layer="1"/>
 <smd name="5" x="0" y="0.8" dx="0.3" dy="0.7" layer="1"/>
 <smd name="6" x="-0.65" y="0.8" dx="0.3" dy="0.7" layer="1"/>
-</package>
-<package name="SOT23-5" urn="urn:adsk.eagle:footprint:5807276/3" library_version="94" library_locally_modified="yes">
-<description>&lt;b&gt;5-Lead Small Outline Transistor&lt;/b&gt; Package SOT-23&lt;p&gt;
-Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</description>
-<wire x1="1.372" y1="0.735" x2="1.372" y2="-0.735" width="0.1524" layer="21"/>
-<wire x1="1.372" y1="-0.735" x2="-1.372" y2="-0.735" width="0.1524" layer="51"/>
-<wire x1="-1.372" y1="-0.735" x2="-1.372" y2="0.735" width="0.1524" layer="21"/>
-<wire x1="-1.372" y1="0.735" x2="1.372" y2="0.735" width="0.1524" layer="51"/>
-<wire x1="-0.522" y1="0.735" x2="0.522" y2="0.735" width="0.1524" layer="21"/>
-<wire x1="-0.428" y1="-0.735" x2="-0.522" y2="-0.735" width="0.1524" layer="21"/>
-<wire x1="0.522" y1="-0.735" x2="0.428" y2="-0.735" width="0.1524" layer="21"/>
-<wire x1="-1.328" y1="-0.735" x2="-1.372" y2="-0.735" width="0.1524" layer="21"/>
-<wire x1="1.372" y1="-0.735" x2="1.328" y2="-0.735" width="0.1524" layer="21"/>
-<wire x1="1.328" y1="0.735" x2="1.372" y2="0.735" width="0.1524" layer="21"/>
-<wire x1="-1.372" y1="0.735" x2="-1.328" y2="0.735" width="0.1524" layer="21"/>
-<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="51" align="center">&gt;NAME</text>
-<rectangle x1="-1.2" y1="-1.425" x2="-0.7" y2="-0.775" layer="51"/>
-<rectangle x1="-0.25" y1="-1.425" x2="0.25" y2="-0.775" layer="51"/>
-<rectangle x1="0.7" y1="-1.425" x2="1.2" y2="-0.775" layer="51"/>
-<rectangle x1="0.7" y1="0.775" x2="1.2" y2="1.425" layer="51"/>
-<rectangle x1="-1.2" y1="0.775" x2="-0.7" y2="1.425" layer="51"/>
-<circle x="-1" y="-2.2" radius="0.1" width="0.2" layer="21"/>
-</package>
-<package name="SOT23-6" urn="urn:adsk.eagle:footprint:5807272/3" library_version="94" library_locally_modified="yes">
-<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
-<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
-<circle x="-1" y="-0.3" radius="0.1" width="0.127" layer="21"/>
-<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="6" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="0" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
-<text x="0" y="0" size="0.2" layer="51" ratio="6" align="center">&gt;NAME</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-<rectangle x1="-0.3" y1="0.85" x2="0.2" y2="1.5" layer="51"/>
 </package>
 <package name="LED0603" urn="urn:adsk.eagle:footprint:7134379/4" library_version="94" library_locally_modified="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
@@ -2217,6 +2204,153 @@ chip</description>
 </polygon>
 <rectangle x1="-0.8" y1="-0.65" x2="0.8" y2="0.65" layer="29"/>
 </package>
+<package name="SOT25" urn="urn:adsk.eagle:footprint:5807275/1" library_version="95" library_locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+TSC [Taiwan Semiconductor Company, Ltd]&lt;br&gt;
+Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
+<wire x1="1.422" y1="0.785" x2="1.422" y2="-0.785" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.785" x2="-1.422" y2="-0.785" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.785" x2="-1.422" y2="0.785" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.785" x2="1.422" y2="0.785" width="0.1524" layer="51"/>
+<wire x1="-0.522" y1="0.785" x2="0.522" y2="0.785" width="0.1524" layer="21"/>
+<wire x1="-0.428" y1="-0.785" x2="-0.522" y2="-0.785" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="-0.785" x2="0.428" y2="-0.785" width="0.1524" layer="21"/>
+<wire x1="-1.328" y1="-0.785" x2="-1.422" y2="-0.785" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.785" x2="1.328" y2="-0.785" width="0.1524" layer="21"/>
+<wire x1="1.328" y1="0.785" x2="1.422" y2="0.785" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.785" x2="-1.328" y2="0.785" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+<package name="DFN4" urn="urn:adsk.eagle:footprint:20030896/2" library_version="95" library_locally_modified="yes">
+<smd name="1" x="-0.4953" y="0.325" dx="0.0254" dy="0.0254" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.4953" y="-0.325" dx="0.0254" dy="0.0254" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.4953" y="-0.325" dx="0.0254" dy="0.0254" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.4953" y="0.325" dx="0.0254" dy="0.0254" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0" y="0" dx="0.0254" dy="0.0254" layer="1" cream="no"/>
+<polygon width="0.0254" layer="1">
+<vertex x="-0.608" y="0.4774"/>
+<vertex x="-0.608" y="0.1726"/>
+<vertex x="-0.4191" y="0.1726"/>
+<vertex x="-0.1905" y="0.4012"/>
+<vertex x="-0.1905" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="-0.608" y="-0.1726"/>
+<vertex x="-0.608" y="-0.4774"/>
+<vertex x="-0.1905" y="-0.4774"/>
+<vertex x="-0.1905" y="-0.4012"/>
+<vertex x="-0.4191" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="0.608" y="-0.1726"/>
+<vertex x="0.608" y="-0.4774"/>
+<vertex x="0.1905" y="-0.4774"/>
+<vertex x="0.1905" y="-0.4012"/>
+<vertex x="0.4191" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="0.608" y="0.4774"/>
+<vertex x="0.608" y="0.1726"/>
+<vertex x="0.4191" y="0.1726"/>
+<vertex x="0.1905" y="0.4012"/>
+<vertex x="0.1905" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="1">
+<vertex x="0" y="0.3429"/>
+<vertex x="-0.3429" y="0"/>
+<vertex x="0" y="-0.3429"/>
+<vertex x="0.3429" y="0"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.608" y="0.4774"/>
+<vertex x="-0.608" y="0.1726"/>
+<vertex x="-0.4191" y="0.1726"/>
+<vertex x="-0.1905" y="0.4012"/>
+<vertex x="-0.1905" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.608" y="-0.1726"/>
+<vertex x="-0.608" y="-0.4774"/>
+<vertex x="-0.1905" y="-0.4774"/>
+<vertex x="-0.1905" y="-0.4012"/>
+<vertex x="-0.4191" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.608" y="-0.1726"/>
+<vertex x="0.608" y="-0.4774"/>
+<vertex x="0.1905" y="-0.4774"/>
+<vertex x="0.1905" y="-0.4012"/>
+<vertex x="0.4191" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.608" y="0.4774"/>
+<vertex x="0.608" y="0.1726"/>
+<vertex x="0.4191" y="0.1726"/>
+<vertex x="0.1905" y="0.4012"/>
+<vertex x="0.1905" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0" y="0.3429"/>
+<vertex x="-0.3429" y="0"/>
+<vertex x="0" y="-0.3429"/>
+<vertex x="0.3429" y="0"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.608" y="0.4774"/>
+<vertex x="-0.608" y="0.1726"/>
+<vertex x="-0.4191" y="0.1726"/>
+<vertex x="-0.1905" y="0.4012"/>
+<vertex x="-0.1905" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.608" y="-0.1726"/>
+<vertex x="-0.608" y="-0.4774"/>
+<vertex x="-0.1905" y="-0.4774"/>
+<vertex x="-0.1905" y="-0.4012"/>
+<vertex x="-0.4191" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.608" y="-0.1726"/>
+<vertex x="0.608" y="-0.4774"/>
+<vertex x="0.1905" y="-0.4774"/>
+<vertex x="0.1905" y="-0.4012"/>
+<vertex x="0.4191" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.608" y="0.4774"/>
+<vertex x="0.608" y="0.1726"/>
+<vertex x="0.4191" y="0.1726"/>
+<vertex x="0.1905" y="0.4012"/>
+<vertex x="0.1905" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0" y="0.3429"/>
+<vertex x="-0.3429" y="0"/>
+<vertex x="0" y="-0.3429"/>
+<vertex x="0.3429" y="0"/>
+</polygon>
+<wire x1="-0.508" y1="-0.508" x2="0.508" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="-0.508" x2="0.508" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="0.508" y1="0.508" x2="-0.508" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-0.508" y1="0.508" x2="-0.508" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.1524" layer="21"/>
+<circle x="-1.016" y="0.381" radius="0.0762" width="0.254" layer="21"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="PLACEHOLDER" urn="urn:adsk.eagle:package:10610054/3" type="empty" library_version="87" library_locally_modified="yes">
@@ -2455,6 +2589,11 @@ chip</description>
 <packageinstance name="XTAL320X150X90"/>
 </packageinstances>
 </package3d>
+<package3d name="SOT353" urn="urn:adsk.eagle:package:19061981/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SOT353"/>
+</packageinstances>
+</package3d>
 <package3d name="SOT363" urn="urn:adsk.eagle:package:5807345/9" type="model" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SOT363"/>
@@ -2468,18 +2607,6 @@ chip</description>
 <package3d name="PSON50P100X145X50-6N" urn="urn:adsk.eagle:package:20030977/1" type="box" library_version="94">
 <packageinstances>
 <packageinstance name="PSON50P100X145X50-6N"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23-5" urn="urn:adsk.eagle:package:5807325/4" type="model" library_version="94" library_locally_modified="yes">
-<description>&lt;b&gt;5-Lead Small Outline Transistor&lt;/b&gt; Package SOT-23&lt;p&gt;
-Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</description>
-<packageinstances>
-<packageinstance name="SOT23-5"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23-6" urn="urn:adsk.eagle:package:5807329/4" type="model" library_version="94" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="SOT23-6"/>
 </packageinstances>
 </package3d>
 <package3d name="LED0603" urn="urn:adsk.eagle:package:7134381/5" type="model" library_version="94" library_locally_modified="yes">
@@ -2567,6 +2694,19 @@ chip 0402</description>
 <package3d name="JUMPER-SOLDER" urn="urn:adsk.eagle:package:12411120/3" type="box" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="JUMPER-SOLDER"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT25" urn="urn:adsk.eagle:package:5807326/1" type="box" library_version="95" library_locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+TSC [Taiwan Semiconductor Company, Ltd]&lt;br&gt;
+Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
+<packageinstances>
+<packageinstance name="SOT25"/>
+</packageinstances>
+</package3d>
+<package3d name="DFN4" urn="urn:adsk.eagle:package:20030973/3" type="model" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="DFN4"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3143,7 +3283,7 @@ chip 0402</description>
 <pin name="C" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="A2" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="POWER_SW_EN" urn="urn:adsk.eagle:symbol:8729578/1" library_version="94" library_locally_modified="yes">
+<symbol name="POWER_VREG_EN" urn="urn:adsk.eagle:symbol:12411090/1" library_version="95" library_locally_modified="yes">
 <wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
 <wire x1="10.16" y1="15.24" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
@@ -5417,31 +5557,13 @@ chip 0402</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER-SWITCH" urn="urn:adsk.eagle:component:8729597/8" prefix="U" library_version="95" library_locally_modified="yes">
-<description>IC SWITCH</description>
+<deviceset name="POWER-VREG-EN" urn="urn:adsk.eagle:component:12411136/3" locally_modified="yes" prefix="U" uservalue="yes" library_version="95" library_locally_modified="yes">
+<description>IC REG w/ EN</description>
 <gates>
-<gate name="G$1" symbol="POWER_SW_EN" x="0" y="0"/>
+<gate name="G$1" symbol="POWER_VREG_EN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-SOT363" package="SOT363">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 5"/>
-<connect gate="G$1" pin="VIN" pad="4"/>
-<connect gate="G$1" pin="VOUT" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/9"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESC" value="IC SWITCH HIGH SIDE SC70-6" constant="no"/>
-<attribute name="DIGIKEYPN" value="SIP32431DR3-T1GE3CT-ND" constant="no"/>
-<attribute name="MPN" value="SIP32431DR3-T1GE3"/>
-</technology>
-</technologies>
-</device>
-<device name="-MAX40200AUK+T" package="SOT23-5">
+<device name="" package="SOT25">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -5449,54 +5571,63 @@ chip 0402</description>
 <connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807325/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5807326/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESC" value="IC DIODE CURRENT SWITCH SOT23-5" constant="no"/>
-<attribute name="DIGIKEYPN" value="MAX40200AUK+TCT-ND"/>
-<attribute name="MPN" value="MAX40200AUK+T"/>
+<attribute name="DESC" value="IC REG LINEAR 3V 600MA SOT25"/>
+<attribute name="DIGIKEYPN" value="AP7365-30WG-7DICT-ND"/>
+<attribute name="MFG" value="Diodes Incorporated"/>
+<attribute name="MPN" value="AP7365-30WG-7"/>
+</technology>
+<technology name="-TCR2EF18,LM(CT">
+<attribute name="DESC" value="IC REG LINEAR 1.8V 200MA SMV" constant="no"/>
+<attribute name="DIGIKEYPN" value="TCR2EF18LM(CTCT-ND" constant="no"/>
+<attribute name="MFG" value="Toshiba Semiconductor and Storage" constant="no"/>
+<attribute name="MPN" value="TCR2EF18,LM(CT" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="-MIC94092YC6" package="SOT363">
+<device name="-DFN4-1X1" package="DFN4">
 <connects>
-<connect gate="G$1" pin="EN" pad="6"/>
-<connect gate="G$1" pin="GND" pad="2 5"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="4"/>
 <connect gate="G$1" pin="VOUT" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807345/9"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20030973/3"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="DESC" value="IC LOAD SW HGH SIDE 1.2A SC70-6" constant="no"/>
-<attribute name="DIGIKEYPN" value="576-3488-1-ND" constant="no"/>
-<attribute name="MPN" value="MIC94092YC6-TR" constant="no"/>
+<technology name="-1.8V">
+<attribute name="DESC" value="LOW DROPOUT (LDO) LINEAR VOLTAGE" constant="no"/>
+<attribute name="DIGIKEYPN" value="TCR3UM18ALFCT-ND" constant="no"/>
+<attribute name="MF" value="Toshiba Semiconductor and Storage" constant="no"/>
+<attribute name="MPN" value="TCR3UM18A,LF" constant="no"/>
+</technology>
+<technology name="-3.0V">
+<attribute name="DESC" value="LOW DROPOUT (LDO) LINEAR VOLTAGE" constant="no"/>
+<attribute name="DIGIKEYPN" value="TCR3UM30ALFCT-ND" constant="no"/>
+<attribute name="MF" value="Toshiba Semiconductor and Storage" constant="no"/>
+<attribute name="MPN" value="TCR3UM30A,LF" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="-SO23-6" package="SOT23-6">
+<device name="-SOT-353" package="SOT353">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="5 6"/>
-<connect gate="G$1" pin="VOUT" pad="1 2"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807329/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19061981/1"/>
 </package3dinstances>
 <technologies>
-<technology name="-SIP32508">
-<attribute name="DESC" value="IC LOAD SWITCH SOT23-6" constant="no"/>
-<attribute name="DIGIKEYPN" value="SIP32508DT-T1-GE3CT-ND" constant="no"/>
-<attribute name="MPN" value="SIP32508DT-T1-GE3" constant="no"/>
-</technology>
-<technology name="-SIP32509">
-<attribute name="DESC" value="IC LOAD SWITCH SOT23-6" constant="no"/>
-<attribute name="DIGIKEYPN" value="SIP32509DT-T1-GE3CT-ND" constant="no"/>
-<attribute name="MPN" value="SIP32509DT-T1-GE3" constant="no"/>
+<technology name="-2.8V-150MA">
+<attribute name="DESC" value="IC REG LINEAR 2.8V 150MA SC70-5" constant="no"/>
+<attribute name="DIGIKEYPN" value="576-3187-1-ND" constant="no"/>
+<attribute name="MPN" value="MIC5365-2.8YC5-TR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6019,7 +6150,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/3" technology="-1M-5%" value="1M"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="POWER-SWITCH" device="-MIC94092YC6" package3d_urn="urn:adsk.eagle:package:5807345/9"/>
+<part name="U4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="POWER-VREG-EN" device="-SOT-353" package3d_urn="urn:adsk.eagle:package:19061981/1" technology="-2.8V-150MA"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/5" technology="-15P-50V" value="15p">
 <variant name="Production" populate="no"/>
