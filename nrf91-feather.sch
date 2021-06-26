@@ -7570,22 +7570,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="200.66" y1="38.1" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="223.52" x2="111.76" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="241.3" x2="93.98" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="G$2" pin="VSYS"/>
 <pinref part="C7" gate="A" pin="1"/>
 <junction x="93.98" y="241.3"/>
-<wire x1="116.84" y1="218.44" x2="111.76" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="C6" gate="A" pin="1"/>
-<wire x1="111.76" y1="218.44" x2="111.76" y2="223.52" width="0.1524" layer="91"/>
-<junction x="111.76" y="223.52"/>
-<wire x1="93.98" y1="241.3" x2="111.76" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="241.3" x2="111.76" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="241.3" x2="114.3" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="VIN"/>
-<pinref part="U3" gate="A" pin="VINA"/>
-<wire x1="111.76" y1="231.14" x2="111.76" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="231.14" x2="111.76" y2="231.14" width="0.1524" layer="91"/>
-<junction x="111.76" y="231.14"/>
+<wire x1="114.3" y1="223.52" x2="114.3" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JMP2" gate="G$1" pin="1"/>
@@ -7958,6 +7950,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="48.26" y1="228.6" x2="53.34" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="228.6" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="JMP2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="VINA"/>
+<wire x1="116.84" y1="218.44" x2="111.76" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="C6" gate="A" pin="1"/>
+<wire x1="104.14" y1="231.14" x2="111.76" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="231.14" x2="111.76" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
