@@ -2212,6 +2212,20 @@ chip</description>
 <text x="-0.635" y="1.016" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <pad name="P$1" x="0" y="0" drill="0.5" thermals="no"/>
 </package>
+<package name="INDC2012X100N" urn="urn:adsk.eagle:footprint:29902825/2" library_version="99" library_locally_modified="yes">
+<text x="-1.69" y="-1.05" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.69" y="1.05" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="1.07" y1="-0.7" x2="-1.07" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.07" y1="0.7" x2="-1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.07" y1="-0.7" x2="1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.07" y1="-0.7" x2="-1.07" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-1.385" y1="-0.86" x2="1.385" y2="-0.86" width="0.05" layer="39"/>
+<wire x1="-1.385" y1="0.86" x2="1.385" y2="0.86" width="0.05" layer="39"/>
+<wire x1="-1.385" y1="-0.86" x2="-1.385" y2="0.86" width="0.05" layer="39"/>
+<wire x1="1.385" y1="-0.86" x2="1.385" y2="0.86" width="0.05" layer="39"/>
+<smd name="1" x="-0.835" y="0" dx="0.8" dy="1.42" layer="1"/>
+<smd name="2" x="0.835" y="0" dx="0.8" dy="1.42" layer="1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="PLACEHOLDER" urn="urn:adsk.eagle:package:10610054/3" type="empty" library_version="87" library_locally_modified="yes">
@@ -2562,6 +2576,11 @@ chip</description>
 <package3d name="BGA6N40P2X3_116X143X67N" urn="urn:adsk.eagle:package:29894431/2" type="model" library_version="97" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="BGA6N40P2X3_116X143X67N"/>
+</packageinstances>
+</package3d>
+<package3d name="INDC2012X100N" urn="urn:adsk.eagle:package:29902828/3" type="model" library_version="99" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="INDC2012X100N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4679,7 +4698,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND" urn="urn:adsk.eagle:component:7932822/9" prefix="L" library_version="96" library_locally_modified="yes">
+<deviceset name="IND" urn="urn:adsk.eagle:component:7932822/11" locally_modified="yes" prefix="L" library_version="99" library_locally_modified="yes">
 <description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -4822,6 +4841,25 @@ chip</description>
 <attribute name="DIGIKEYPN" value="587-3452-2-ND" constant="no"/>
 <attribute name="MPN" value="NRS2012T4R7MGJ" constant="no"/>
 <attribute name="VALUE" value="4.7u" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="INDC2012X100N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29902828/3"/>
+</package3dinstances>
+<technologies>
+<technology name="-3.1A-60MOHM">
+<attribute name="CURRENT" value="3.1A" constant="no"/>
+<attribute name="DESC" value="FIXED IND 470NH 3.1A 50 MOHM SMD"/>
+<attribute name="DIGIKEYPN" value="‎490-17698-1-ND‎" constant="no"/>
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MPN" value="LQM21PNR47MGHL‎" constant="no"/>
+<attribute name="VALUE" value="470nH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6012,7 +6050,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="D1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DIO-SCHOTTKY" device="-SMA-MICRO" package3d_urn="urn:adsk.eagle:package:29894427/2" technology="-1A" value="DIO-SCHOTTKY-1A-SMA-MICRO"/>
 <part name="P+2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="P+4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
-<part name="L2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="" package3d_urn="urn:adsk.eagle:package:5807324/5" technology="-1.5U-1.5A-2X2" value="1.5u"/>
+<part name="L2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="-0805" package3d_urn="urn:adsk.eagle:package:29902828/3" technology="-3.1A-60MOHM" value="470nH"/>
 <part name="C4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/7" technology="-2.2U-10V-01" value="2.2u"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
