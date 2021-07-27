@@ -6215,8 +6215,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+22" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="U3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-LM3281YFQR" device="" package3d_urn="urn:adsk.eagle:package:29894431/2"/>
 <part name="R7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/4" technology="-1M-5%" value="1M"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JMP4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NC" device="" package3d_urn="urn:adsk.eagle:package:24898428/1"/>
+<part name="P+23" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7218,18 +7218,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="139.7" y="224.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.7" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="129.54" y="205.74" smashed="yes" rot="MR90">
-<attribute name="NAME" x="131.0386" y="201.93" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="126.238" y="200.66" size="1.778" layer="96" rot="MR90"/>
-<attribute name="TOLERANCE" x="123.698" y="201.422" size="1.778" layer="97" rot="MR90"/>
-<attribute name="POWER" x="121.158" y="201.422" size="1.778" layer="97" rot="MR90"/>
-</instance>
-<instance part="GND5" gate="1" x="129.54" y="195.58" smashed="yes">
-<attribute name="VALUE" x="127" y="193.04" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="114.3" y="223.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="115.7986" y="227.33" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="110.998" y="228.6" size="1.778" layer="96" rot="R270"/>
+<attribute name="TOLERANCE" x="108.458" y="227.838" size="1.778" layer="97" rot="R270"/>
+<attribute name="POWER" x="105.918" y="227.838" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="JMP4" gate="G$1" x="157.48" y="182.88" smashed="yes">
 <attribute name="NAME" x="154.94" y="185.42" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="154.94" y="180.34" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="P+23" gate="G$2" x="114.3" y="233.68" smashed="yes">
+<attribute name="VALUE" x="109.22" y="236.22" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7339,11 +7339,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="165.1" y1="205.74" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="129.54" y1="200.66" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7564,6 +7559,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="JMP2" gate="G$1" pin="1"/>
 <pinref part="P+21" gate="G$2" pin="VSYS"/>
 <wire x1="43.18" y1="236.22" x2="43.18" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+23" gate="G$2" pin="VSYS"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="231.14" x2="114.3" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_5V0" class="0">
@@ -7922,10 +7922,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="MODE"/>
-<wire x1="129.54" y1="210.82" x2="134.62" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="210.82" x2="134.62" y2="210.82" width="0.1524" layer="91"/>
 <label x="116.84" y="210.82" size="1.778" layer="95"/>
-<wire x1="129.54" y1="210.82" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
-<junction x="129.54" y="210.82"/>
+<wire x1="114.3" y1="218.44" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="182.88" y="182.88" size="1.778" layer="95" rot="MR0"/>
