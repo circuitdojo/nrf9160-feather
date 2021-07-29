@@ -1909,36 +1909,36 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 <rectangle x1="-0.3" y1="0.85" x2="0.2" y2="1.5" layer="51"/>
 </package>
-<package name="SMA-MICRO" urn="urn:adsk.eagle:footprint:29894380/1" library_version="96" library_locally_modified="yes">
-<smd name="1" x="-1.575" y="0" dx="1.05" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="0.1" y="0" dx="0.95" dy="0.85" layer="1" rot="R90"/>
-<wire x1="-2.521" y1="-0.8248" x2="0.621" y2="-0.8248" width="0.1524" layer="21"/>
-<wire x1="0.621" y1="-0.8248" x2="0.621" y2="-0.393" width="0.1524" layer="21"/>
-<wire x1="0.621" y1="0.8248" x2="-2.521" y2="0.8248" width="0.1524" layer="21"/>
-<wire x1="-2.521" y1="0.8248" x2="-2.521" y2="0.393" width="0.1524" layer="21"/>
-<wire x1="-2.521" y1="-0.393" x2="-2.521" y2="-0.8248" width="0.1524" layer="21"/>
-<wire x1="0.621" y1="0.393" x2="0.621" y2="0.8248" width="0.1524" layer="21"/>
-<wire x1="-0.502" y1="-0.1" x2="-1.518" y2="-0.1" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-1.772" y2="-0.1" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="0.535" x2="-1.518" y2="-0.1" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-1.518" y2="-0.735" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="0.535" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="0.408" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="0.281" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="0.154" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="0.027" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="-0.735" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="-0.608" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="-0.481" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="-0.354" width="0.1524" layer="51"/>
-<wire x1="-1.518" y1="-0.1" x2="-0.756" y2="-0.227" width="0.1524" layer="51"/>
-<wire x1="-0.756" y1="0.535" x2="-0.756" y2="-0.735" width="0.1524" layer="51"/>
-<wire x1="-2.544" y1="-0.8478" x2="0.644" y2="-0.8478" width="0.1524" layer="51"/>
-<wire x1="0.644" y1="-0.8478" x2="0.644" y2="0.8478" width="0.1524" layer="51"/>
-<wire x1="0.644" y1="0.8478" x2="-2.544" y2="0.8478" width="0.1524" layer="51"/>
-<wire x1="-2.544" y1="0.8478" x2="-2.544" y2="-0.8478" width="0.1524" layer="51"/>
-<circle x="-2.7" y="0" radius="0.1" width="0.25" layer="21"/>
-<text x="-1.6" y="1.5" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<package name="SMA-MICRO" urn="urn:adsk.eagle:footprint:29894380/1" locally_modified="yes" library_version="100" library_locally_modified="yes">
+<smd name="1" x="-0.625" y="0" dx="1.05" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="1.05" y="0" dx="0.95" dy="0.85" layer="1" rot="R90"/>
+<wire x1="-1.571" y1="-0.8248" x2="1.571" y2="-0.8248" width="0.1524" layer="21"/>
+<wire x1="1.571" y1="-0.8248" x2="1.571" y2="-0.393" width="0.1524" layer="21"/>
+<wire x1="1.571" y1="0.8248" x2="-1.571" y2="0.8248" width="0.1524" layer="21"/>
+<wire x1="-1.571" y1="0.8248" x2="-1.571" y2="0.393" width="0.1524" layer="21"/>
+<wire x1="-1.571" y1="-0.393" x2="-1.571" y2="-0.8248" width="0.1524" layer="21"/>
+<wire x1="1.571" y1="0.393" x2="1.571" y2="0.8248" width="0.1524" layer="21"/>
+<wire x1="0.448" y1="-0.1" x2="-0.568" y2="-0.1" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="-0.822" y2="-0.1" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="0.535" x2="-0.568" y2="-0.1" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="-0.568" y2="-0.735" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="0.535" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="0.408" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="0.281" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="0.154" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="0.027" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="-0.735" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="-0.608" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="-0.481" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="-0.354" width="0.1524" layer="51"/>
+<wire x1="-0.568" y1="-0.1" x2="0.194" y2="-0.227" width="0.1524" layer="51"/>
+<wire x1="0.194" y1="0.535" x2="0.194" y2="-0.735" width="0.1524" layer="51"/>
+<wire x1="-1.594" y1="-0.8478" x2="1.594" y2="-0.8478" width="0.1524" layer="51"/>
+<wire x1="1.594" y1="-0.8478" x2="1.594" y2="0.8478" width="0.1524" layer="51"/>
+<wire x1="1.594" y1="0.8478" x2="-1.594" y2="0.8478" width="0.1524" layer="51"/>
+<wire x1="-1.594" y1="0.8478" x2="-1.594" y2="-0.8478" width="0.1524" layer="51"/>
+<circle x="-1.75" y="0" radius="0.1" width="0.25" layer="21"/>
+<text x="-0.65" y="1.5" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
 <package name="JAE_DX07S016JA1R1500" urn="urn:adsk.eagle:footprint:29894381/2" locally_modified="yes" library_version="97" library_locally_modified="yes">
 <wire x1="4.47" y1="1.35" x2="4.47" y2="-5.05" width="0.127" layer="51"/>
@@ -2543,7 +2543,7 @@ chip</description>
 <packageinstance name="SOT23"/>
 </packageinstances>
 </package3d>
-<package3d name="SMA-MICRO" urn="urn:adsk.eagle:package:29894427/2" type="model" library_version="97" library_locally_modified="yes">
+<package3d name="SMA-MICRO" urn="urn:adsk.eagle:package:29894427/2" type="model" library_version="100" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SMA-MICRO"/>
 </packageinstances>
@@ -4630,7 +4630,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/13" prefix="D" library_version="97" library_locally_modified="yes">
+<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/13" prefix="D" library_version="100" library_locally_modified="yes">
 <description>DIODE SCHOTTKY 40V 3A MINI2</description>
 <gates>
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
