@@ -1682,7 +1682,7 @@ chip 0402</description>
 <wire x1="-0.2" y1="0.6" x2="0.2" y2="0.6" width="0.127" layer="21"/>
 <wire x1="0.2" y1="0.6" x2="0.75" y2="0.1" width="0.127" layer="21" curve="-90"/>
 </package>
-<package name="JUMPER-ROUND-N0" urn="urn:adsk.eagle:footprint:24898406/1" locally_modified="yes" library_version="97" library_locally_modified="yes">
+<package name="JUMPER-ROUND-N0" urn="urn:adsk.eagle:footprint:24898406/2" library_version="101" library_locally_modified="yes">
 <smd name="P$1" x="-0.3" y="0" dx="0.2" dy="0.2" layer="1" cream="no"/>
 <smd name="P$2" x="0.3" y="0" dx="0.2" dy="0.2" layer="1" cream="no"/>
 <text x="-1.2" y="-1.7" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
@@ -1909,7 +1909,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 <rectangle x1="-0.3" y1="0.85" x2="0.2" y2="1.5" layer="51"/>
 </package>
-<package name="SMA-MICRO" urn="urn:adsk.eagle:footprint:29894380/1" locally_modified="yes" library_version="100" library_locally_modified="yes">
+<package name="SMA-MICRO" urn="urn:adsk.eagle:footprint:29894380/2" library_version="101" library_locally_modified="yes">
 <smd name="1" x="-0.625" y="0" dx="1.05" dy="1.5" layer="1" rot="R90"/>
 <smd name="2" x="1.05" y="0" dx="0.95" dy="0.85" layer="1" rot="R90"/>
 <wire x1="-1.571" y1="-0.8248" x2="1.571" y2="-0.8248" width="0.1524" layer="21"/>
@@ -1940,7 +1940,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <circle x="-1.75" y="0" radius="0.1" width="0.25" layer="21"/>
 <text x="-0.65" y="1.5" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
-<package name="JAE_DX07S016JA1R1500" urn="urn:adsk.eagle:footprint:29894381/2" locally_modified="yes" library_version="97" library_locally_modified="yes">
+<package name="JAE_DX07S016JA1R1500" urn="urn:adsk.eagle:footprint:29894381/3" library_version="101" library_locally_modified="yes">
 <wire x1="4.47" y1="1.35" x2="4.47" y2="-5.05" width="0.127" layer="51"/>
 <wire x1="4.47" y1="-5.05" x2="4.47" y2="-5.55" width="0.127" layer="51"/>
 <wire x1="4.47" y1="-5.55" x2="-4.47" y2="-5.55" width="0.127" layer="51"/>
@@ -2493,7 +2493,7 @@ chip 0402</description>
 <packageinstance name="JUMPER-ROUND-NC"/>
 </packageinstances>
 </package3d>
-<package3d name="JUMPER-ROUND-N0" urn="urn:adsk.eagle:package:24898427/1" type="box" library_version="97" library_locally_modified="yes">
+<package3d name="JUMPER-ROUND-N0" urn="urn:adsk.eagle:package:24898427/2" type="box" library_version="101" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="JUMPER-ROUND-N0"/>
 </packageinstances>
@@ -2525,7 +2525,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <packageinstance name="SOT23-6"/>
 </packageinstances>
 </package3d>
-<package3d name="JAE_DX07S016JA1R1500" urn="urn:adsk.eagle:package:29894428/3" type="model" library_version="97" library_locally_modified="yes">
+<package3d name="JAE_DX07S016JA1R1500" urn="urn:adsk.eagle:package:29894428/4" type="model" library_version="101" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="JAE_DX07S016JA1R1500"/>
 </packageinstances>
@@ -2543,7 +2543,7 @@ chip</description>
 <packageinstance name="SOT23"/>
 </packageinstances>
 </package3d>
-<package3d name="SMA-MICRO" urn="urn:adsk.eagle:package:29894427/2" type="model" library_version="100" library_locally_modified="yes">
+<package3d name="SMA-MICRO" urn="urn:adsk.eagle:package:29894427/4" type="model" library_version="101" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SMA-MICRO"/>
 </packageinstances>
@@ -3255,7 +3255,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCB" urn="urn:adsk.eagle:component:10610062/8" prefix="PCB" library_version="95" library_locally_modified="yes">
+<deviceset name="PCB" urn="urn:adsk.eagle:component:10610062/9" prefix="PCB" library_version="101" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PLACEHOLDER" x="0" y="0"/>
 </gates>
@@ -3285,6 +3285,9 @@ chip</description>
 </technology>
 <technology name="-PS-AIR-QUALITY-WING-TESTER-BASE">
 <attribute name="MPN" value="BRD-0013" constant="no"/>
+</technology>
+<technology name="-PS-AQW">
+<attribute name="MPN" value="BRD-0010" constant="no"/>
 </technology>
 <technology name="-PS-CASCADIAIO-SI7021">
 <attribute name="MPN" value="BRD-C-0002" constant="no"/>
@@ -4630,7 +4633,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/13" prefix="D" library_version="100" library_locally_modified="yes">
+<deviceset name="DIO-SCHOTTKY" urn="urn:adsk.eagle:component:7658712/14" locally_modified="yes" prefix="D" library_version="101" library_locally_modified="yes">
 <description>DIODE SCHOTTKY 40V 3A MINI2</description>
 <gates>
 <gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
@@ -4671,7 +4674,7 @@ chip</description>
 <connect gate="A" pin="2" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29894427/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29894427/4"/>
 </package3dinstances>
 <technologies>
 <technology name="-1A">
@@ -4695,7 +4698,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND" urn="urn:adsk.eagle:component:7932822/11" locally_modified="yes" prefix="L" library_version="99" library_locally_modified="yes">
+<deviceset name="IND" urn="urn:adsk.eagle:component:7932822/12" prefix="L" library_version="101" library_locally_modified="yes">
 <description>INDUCTOR</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -5739,7 +5742,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-NO" urn="urn:adsk.eagle:component:12411139/4" prefix="JMP" library_version="97" library_locally_modified="yes">
+<deviceset name="JUMPER-NO" urn="urn:adsk.eagle:component:12411139/5" prefix="JMP" library_version="101" library_locally_modified="yes">
 <description>Different jumper types: cutable, solderable</description>
 <gates>
 <gate name="G$1" symbol="JUMPER_2_NO" x="0" y="0"/>
@@ -5783,7 +5786,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24898427/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24898427/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5811,7 +5814,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON-USB-DX07S016JA1R1500" urn="urn:adsk.eagle:component:29894444/2" locally_modified="yes" prefix="J" library_version="97" library_locally_modified="yes">
+<deviceset name="CON-USB-DX07S016JA1R1500" urn="urn:adsk.eagle:component:29894444/3" prefix="J" library_version="101" library_locally_modified="yes">
 <description>USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole </description>
 <gates>
 <gate name="G$1" symbol="DX07S016JA1R1500" x="0" y="0"/>
@@ -5830,7 +5833,7 @@ chip</description>
 <connect gate="G$1" pin="VBUS" pad="2 11"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29894428/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29894428/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6040,7 +6043,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+29" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBAT" device=""/>
 <part name="Q3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-P" device="-SOT23" package3d_urn="urn:adsk.eagle:package:5807332/6" technology="-20V-4.7A" value="MOSFET-P-20V-4.7A-SOT23"/>
 <part name="P+1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
-<part name="D1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DIO-SCHOTTKY" device="-SMA-MICRO" package3d_urn="urn:adsk.eagle:package:29894427/2" technology="-1A" value="DIO-SCHOTTKY-1A-SMA-MICRO"/>
+<part name="D1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DIO-SCHOTTKY" device="-SMA-MICRO" package3d_urn="urn:adsk.eagle:package:29894427/4" technology="-1A" value="DIO-SCHOTTKY-1A-SMA-MICRO"/>
 <part name="P+2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="P+4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="L2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="-0805" package3d_urn="urn:adsk.eagle:package:29902828/3" technology="-3.1A-60MOHM" value="470nH"/>
@@ -6051,7 +6054,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VCC_5V0" device=""/>
-<part name="D2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DIO-SCHOTTKY" device="-SMA-MICRO" package3d_urn="urn:adsk.eagle:package:29894427/2" technology="-1A" value="DIO-SCHOTTKY-1A-SMA-MICRO"/>
+<part name="D2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="DIO-SCHOTTKY" device="-SMA-MICRO" package3d_urn="urn:adsk.eagle:package:29894427/4" technology="-1A" value="DIO-SCHOTTKY-1A-SMA-MICRO"/>
 <part name="P+3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VCC_5V0" device=""/>
 <part name="R2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/4" technology="-1M-5%" value="1M"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6200,9 +6203,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="TP4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
 <part name="TP5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
 <part name="TP6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="TP" device="-1SIDE-1P0" package3d_urn="urn:adsk.eagle:package:24898411/1"/>
-<part name="JMP3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NO" device="-ROUND-NO" package3d_urn="urn:adsk.eagle:package:24898427/1"/>
+<part name="JMP3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NO" device="-ROUND-NO" package3d_urn="urn:adsk.eagle:package:24898427/2"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-USB-DX07S016JA1R1500" device="" package3d_urn="urn:adsk.eagle:package:29894428/3"/>
+<part name="J8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-USB-DX07S016JA1R1500" device="" package3d_urn="urn:adsk.eagle:package:29894428/4"/>
 <part name="P+22" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
 <part name="U3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-LM3281YFQR" device="" package3d_urn="urn:adsk.eagle:package:29894431/2"/>
 <part name="R7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/4" technology="-1M-5%" value="1M"/>
