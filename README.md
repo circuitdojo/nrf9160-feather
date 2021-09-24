@@ -8,4 +8,4 @@
 
 ## License
 
-Hardware released under the CERN v1.2 License. See **LICENSE.txt** for more info.
+Hardware released under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal. See **LICENSE.txt** for more info.
