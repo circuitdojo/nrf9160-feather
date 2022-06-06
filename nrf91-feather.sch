@@ -8487,6 +8487,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="309.70276875" y1="15.25115" x2="309.73323125" y2="15.328340625" width="0" layer="97" curve="-87.5"/>
 <text x="134.62" y="15.24" size="3.81" layer="97">Some footprints provided by SnapEDA</text>
 <text x="134.62" y="10.16" size="3.81" layer="97">Some schematic symbols from Sparkfun</text>
+<text x="259.08" y="83.82" size="1.778" layer="91">TODO: investigate what GPIOs are necesary</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
