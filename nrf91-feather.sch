@@ -6320,7 +6320,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CON-SIM" device="" package3d_urn="urn:adsk.eagle:package:19415237/4" technology="-104224-0820"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-10K-1%" value="10k"/>
+<part name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-1K-5%" value="1k"/>
 <part name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/8" technology="-4.7U-6.3V-2" value="4.7u"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="SW-EVP-AA402W" device="" package3d_urn="urn:adsk.eagle:package:19415243/4"/>
@@ -8847,7 +8847,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="309.70276875" y1="15.25115" x2="309.73323125" y2="15.328340625" width="0" layer="97" curve="-87.5"/>
 <text x="134.62" y="15.24" size="3.81" layer="97">Some footprints provided by SnapEDA</text>
 <text x="134.62" y="10.16" size="3.81" layer="97">Some schematic symbols from Sparkfun</text>
-<text x="259.08" y="83.82" size="1.778" layer="91">TODO: investigate what GPIOs are necesary</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>

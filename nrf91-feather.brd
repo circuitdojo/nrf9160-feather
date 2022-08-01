@@ -8509,16 +8509,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="3.1" y="-5.87" size="0.8128" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="5.54981875" y="6.5295" size="1.27013125" layer="28" rot="MR90"/>
 </element>
-<element name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="R0402-M" package3d_urn="urn:adsk.eagle:package:19061974/5" value="10k" x="29.7" y="18.2" smashed="yes" rot="R90">
-<attribute name="DESC" value="" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEYPN" value="311-10.0KHRCT-ND" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
+<element name="R9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="R0402-M" package3d_urn="urn:adsk.eagle:package:19061974/5" value="1k" x="29.7" y="18.2" smashed="yes" rot="R90">
+<attribute name="DESC" value="RES SMD 1K OHM 5% 1/16W 0402" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEYPN" value="311-1.0KJRCT-ND" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402JR-071KL" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="29.7" y="18.2" size="0.2" layer="51" rot="R90" align="center"/>
-<attribute name="POWER" value="" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPHIGH" value="155" x="29.7" y="18.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPLOW" value="-55" x="29.7" y="18.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="1/16W" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPHIGH" value="" x="29.7" y="18.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPLOW" value="" x="29.7" y="18.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="17.6" y="-15.7" size="0.8128" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" package="C0603" package3d_urn="urn:adsk.eagle:package:5807321/8" value="4.7u" x="25.9" y="9.7" smashed="yes" rot="R180">
 <attribute name="DESC" value="CAP CER 4.7UF 6.3V X7R 0603" x="25.9" y="9.7" size="1.778" layer="27" rot="R180" display="off"/>
