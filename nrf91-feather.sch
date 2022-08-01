@@ -6406,7 +6406,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SOLDER1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="SOLDER" device="" package3d_urn="urn:adsk.eagle:package:10610054/3" technology="-PASTE-ROOM-TEMP-50G">
 <attribute name="MQTY" value="150"/>
 </part>
-<part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-1M-5%" value="1M"/>
+<part name="R19" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
 <part name="U4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="POWER-SWITCH" device="-DFN4" override_package3d_urn="urn:adsk.eagle:package:36693341/2" override_package_urn="urn:adsk.eagle:footprint:36693342/1" technology="-SIP32409" value="POWER-SWITCH-SIP32409-DFN4"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/7" technology="-15P-50V" value="15p">
@@ -6461,10 +6461,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0402" package3d_urn="urn:adsk.eagle:package:7419912/7" technology="-1U-25V-1" value="1u"/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R22" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
-<part name="R23" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
-<part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0805" package3d_urn="urn:adsk.eagle:package:5807330/7" technology="-47U-6.3V" value="47u"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -6478,6 +6474,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="FB1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="FERRITE" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-120-100MHZ" value="FERRITE-120-100MHZ-0402"/>
 <part name="R5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="Q1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="MOSFET-N" device="-SC89" package3d_urn="urn:adsk.eagle:package:19061973/4"/>
+<part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R24" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
+<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8191,7 +8191,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="55.88" y="157.48" size="5.08" layer="97">SWD</text>
 <text x="63.5" y="88.9" size="5.08" layer="97">Buttons</text>
 <text x="332.74" y="119.38" size="5.08" layer="97">External Flash</text>
-<text x="180.34" y="45.72" size="5.08" layer="97">D7 Blue LED</text>
+<text x="165.1" y="66.04" size="5.08" layer="97">D7 Blue LED</text>
 <text x="177.8" y="119.38" size="1.778" layer="97">3.0V - 5.5V</text>
 <text x="330.2" y="76.2" size="1.778" layer="97">2.7-3.6V (abs max 4.6)</text>
 <text x="83.82" y="198.12" size="5.08" layer="97">GPS ant</text>
@@ -9059,24 +9059,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND18" gate="1" x="246.38" y="210.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="248.92" y="208.28" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R22" gate="G$1" x="279.4" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="277.9014" y="100.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="282.702" y="99.06" size="1.778" layer="96" rot="R90"/>
-<attribute name="TOLERANCE" x="282.702" y="107.442" size="1.778" layer="97" rot="R90"/>
-<attribute name="POWER" x="285.242" y="107.442" size="1.778" layer="97" rot="R90"/>
-</instance>
-<instance part="R23" gate="G$1" x="287.02" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="285.5214" y="100.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="290.322" y="99.06" size="1.778" layer="96" rot="R90"/>
-<attribute name="TOLERANCE" x="290.322" y="107.442" size="1.778" layer="97" rot="R90"/>
-<attribute name="POWER" x="292.862" y="107.442" size="1.778" layer="97" rot="R90"/>
-</instance>
-<instance part="+3V10" gate="G$1" x="287.02" y="111.76" smashed="yes">
-<attribute name="VALUE" x="284.48" y="114.3" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V14" gate="G$1" x="279.4" y="111.76" smashed="yes">
-<attribute name="VALUE" x="276.86" y="114.3" size="1.778" layer="96"/>
-</instance>
 <instance part="C3" gate="A" x="241.3" y="238.76" smashed="yes">
 <attribute name="NAME" x="242.824" y="239.141" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.824" y="234.061" size="1.778" layer="96"/>
@@ -9117,6 +9099,23 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="FB1" gate="G$1" x="152.4" y="238.76" smashed="yes">
 <attribute name="NAME" x="148.59" y="240.1316" size="1.778" layer="95"/>
+</instance>
+<instance part="Q1" gate="A" x="213.36" y="53.34" smashed="yes">
+<attribute name="NAME" x="218.44" y="53.975" size="1.778" layer="95"/>
+<attribute name="VALUE" x="218.44" y="52.07" size="1.778" layer="96"/>
+<attribute name="MPN" x="218.44" y="50.038" size="1.778" layer="97" ratio="6"/>
+</instance>
+<instance part="GND37" gate="1" x="215.9" y="45.72" smashed="yes">
+<attribute name="VALUE" x="213.36" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="R24" gate="G$1" x="205.74" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="204.2414" y="41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="209.042" y="40.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="TOLERANCE" x="209.042" y="51.562" size="1.778" layer="97" rot="R90"/>
+<attribute name="POWER" x="211.582" y="51.562" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="GND48" gate="1" x="205.74" y="38.1" smashed="yes">
+<attribute name="VALUE" x="203.2" y="35.56" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9226,6 +9225,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C22" gate="A" pin="2"/>
 <pinref part="GND51" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="Q1" gate="A" pin="S"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="P0.12/MD" class="0">
 <segment>
@@ -9275,14 +9282,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="38.1" y1="220.98" x2="33.02" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="33.02" y1="220.98" x2="33.02" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="+3V10" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="+3V14" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD2"/>
@@ -9447,11 +9446,13 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="P0.03/D7" class="0">
 <segment>
-<wire x1="195.58" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
-<label x="195.58" y="58.42" size="1.778" layer="95"/>
-<label x="195.58" y="58.42" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="215.9" y1="63.5" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="190.5" y="50.8" size="1.778" layer="95"/>
+<label x="190.5" y="50.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="190.5" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="A" pin="G"/>
+<wire x1="205.74" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
+<junction x="205.74" y="50.8"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
@@ -9793,22 +9794,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="86.36" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="!WP"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="93.98" x2="287.02" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="93.98" x2="287.02" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="!HOLD"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="91.44" x2="279.4" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="91.44" x2="279.4" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="FB1" gate="G$1" pin="2"/>
@@ -9820,6 +9805,37 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="167.64" y1="223.52" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="238.76" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
 <junction x="157.48" y="238.76"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="215.9" y1="63.5" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="A" pin="D"/>
+</segment>
+</net>
+<net name="FLASH_WP" class="0">
+<segment>
+<wire x1="172.72" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
+<label x="147.32" y="152.4" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0.08"/>
+</segment>
+<segment>
+<wire x1="325.12" y1="93.98" x2="299.72" y2="93.98" width="0.1524" layer="91"/>
+<label x="299.72" y="93.98" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="!WP"/>
+</segment>
+</net>
+<net name="FLASH_HOLD" class="0">
+<segment>
+<wire x1="172.72" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<label x="147.32" y="147.32" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="P0.10"/>
+</segment>
+<segment>
+<wire x1="325.12" y1="91.44" x2="299.72" y2="91.44" width="0.1524" layer="91"/>
+<label x="299.72" y="91.44" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="!HOLD"/>
 </segment>
 </net>
 </nets>
