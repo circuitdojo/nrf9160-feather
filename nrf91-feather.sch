@@ -1448,7 +1448,7 @@ chip 0402</description>
 <rectangle x1="35.306" y1="-0.254" x2="35.814" y2="0.254" layer="51"/>
 <rectangle x1="37.846" y1="-0.254" x2="38.354" y2="0.254" layer="51"/>
 </package>
-<package name="SILABS_CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:footprint:20030894/1" library_version="94">
+<package name="SILABS_CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:footprint:20030894/1" locally_modified="yes" library_version="102" library_locally_modified="yes">
 <rectangle x1="0.1" y1="-0.85" x2="0.85" y2="-0.1" layer="31"/>
 <rectangle x1="-0.85" y1="0.1" x2="-0.1" y2="0.85" layer="31"/>
 <rectangle x1="0.1" y1="0.1" x2="0.85" y2="0.85" layer="31"/>
@@ -2113,7 +2113,7 @@ chip</description>
 <smd name="1" x="-0.835" y="0" dx="0.8" dy="1.42" layer="1"/>
 <smd name="2" x="0.835" y="0" dx="0.8" dy="1.42" layer="1"/>
 </package>
-<package name="SON50P200X150X100-8N" urn="urn:adsk.eagle:footprint:35175901/1" library_version="102" library_locally_modified="yes">
+<package name="SON50P200X150X100-8N" urn="urn:adsk.eagle:footprint:35175901/1" locally_modified="yes" library_version="102" library_locally_modified="yes">
 <circle x="-1.745" y="0.75" radius="0.1" width="0.2" layer="21"/>
 <circle x="-1.745" y="0.75" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-0.75" y1="1" x2="0.75" y2="1" width="0.127" layer="51"/>
@@ -2136,6 +2136,7 @@ chip</description>
 <smd name="6" x="0.685" y="-0.25" dx="0.86" dy="0.27" layer="1" roundness="25"/>
 <smd name="7" x="0.685" y="0.25" dx="0.86" dy="0.27" layer="1" roundness="25"/>
 <smd name="8" x="0.685" y="0.75" dx="0.86" dy="0.27" layer="1" roundness="25"/>
+<text x="0" y="0" size="0.2" layer="51" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="SOT23-6" urn="urn:adsk.eagle:footprint:5807272/4" library_version="102" library_locally_modified="yes">
 <wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
@@ -2257,6 +2258,7 @@ chip</description>
 <wire x1="-0.7112" y1="0.762" x2="-0.5588" y2="0.762" width="0" layer="51" curve="-180"/>
 <wire x1="0.3048" y1="1.0668" x2="-0.3048" y2="1.0414" width="0.1524" layer="51" curve="-180"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="0" y="0" size="0.2" layer="51" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="SON50P160X120X60-5N" library_version="102" library_locally_modified="yes">
 <description>&lt;b&gt;dfn4&lt;/b&gt;&lt;br&gt;
@@ -2575,7 +2577,7 @@ chip</description>
 <packageinstance name="SOT363"/>
 </packageinstances>
 </package3d>
-<package3d name="SILABS_CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:package:20030971/1" type="box" library_version="94">
+<package3d name="SILABS_CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:package:20030971/1" type="box" library_version="102" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SILABS_CP2102N-A02-GQFN20R"/>
 </packageinstances>
@@ -5500,7 +5502,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:component:20031053/2" prefix="U" library_version="95" library_locally_modified="yes">
+<deviceset name="IC-CP2102N-A02-GQFN20R" urn="urn:adsk.eagle:component:20031053/2" prefix="U" library_version="102" library_locally_modified="yes">
 <description>IC USB TO UART BRIDGE QFN20</description>
 <gates>
 <gate name="G$1" symbol="CP2102N-A02-GQFN20R" x="0" y="0"/>
@@ -6000,31 +6002,6 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND-0001" urn="urn:adsk.eagle:component:5807359/4" prefix="L" library_version="101" library_locally_modified="yes">
-<description>FIXED IND 2.2UH 1.37A 107 MOHM</description>
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IND-2P0X2P0X1P2">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5807324/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CURRENT" value="1.37A"/>
-<attribute name="DIGIKEYPN" value="587-3450-1-ND"/>
-<attribute name="MPN" value="NRS2012T2R2MGJ"/>
-<attribute name="VALUE" value="2.2u"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NTC" urn="urn:adsk.eagle:component:7658675/6" locally_modified="yes" prefix="NTC" library_version="102" library_locally_modified="yes">
 <description>THERMISTOR NTC 10KOHM 3380K 0402</description>
 <gates>
@@ -6251,7 +6228,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="BOARD_NUMBER" value="BRD-0015"/>
 <attribute name="COMPANY" value="Circuit Dojo"/>
 <attribute name="DOC_NUMBER" value="SCH-0015"/>
-<attribute name="DOC_REV" value="2"/>
+<attribute name="DOC_REV" value="5"/>
 <attribute name="PN" value="PS-NRF91-FEATHER"/>
 <attribute name="TITLE" value="nRF91 Feather"/>
 </attributes>
@@ -6441,7 +6418,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/8" technology="-4.7U-6.3V-2" value="4.7u"/>
 <part name="C4" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="CAP" device="-0603" package3d_urn="urn:adsk.eagle:package:5807321/8" technology="-10U-6.3V" value="10u"/>
 <part name="P+3" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VBUS" device=""/>
-<part name="L2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND-0001" device="" package3d_urn="urn:adsk.eagle:package:5807324/5" value="2.2u"/>
+<part name="L2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IND" device="" package3d_urn="urn:adsk.eagle:package:5807324/5" technology="-2.2U-1.37A-2X2" value="2.2u"/>
 <part name="P+7" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-267K-1%" value="267k"/>
@@ -6451,7 +6428,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R21" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-5.1K-1%" value="5.1k"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-BQ25170JDSGR" device="-WSON8" override_package3d_urn="urn:adsk.eagle:package:36693350/2" override_package_urn="urn:adsk.eagle:footprint:36693351/1"/>
+<part name="U5" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="IC-BQ25170JDSGR" device="-WSON8" override_package3d_urn="urn:adsk.eagle:package:36693350/2" override_package_urn="urn:adsk.eagle:footprint:36693351/1" override_locally_modified="yes"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JMP2" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="JUMPER-NO" device="-ROUND-NO" package3d_urn="urn:adsk.eagle:package:24898427/2"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
