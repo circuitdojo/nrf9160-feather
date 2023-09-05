@@ -6372,7 +6372,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="Y1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="XTAL-ABS07AIG-32.768KHZ-7-T" device="" package3d_urn="urn:adsk.eagle:package:13629267/4" override_package3d_urn="urn:adsk.eagle:package:12413972/3" override_package_urn="urn:adsk.eagle:footprint:12413973/1" override_locally_modified="yes"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="P+9" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="VSYS" device=""/>
 <part name="R17" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-20K-1%" value="20k"/>
 <part name="R18" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-20K-1%" value="20k"/>
 <part name="R1" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
@@ -6455,6 +6454,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R24" library="wolff-den" library_urn="urn:adsk.eagle:library:6370453" deviceset="RES" device="-0402" package3d_urn="urn:adsk.eagle:package:19061974/5" technology="-100K-1%" value="100k"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10516,9 +10516,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="+3V9" gate="G$1" x="106.68" y="200.66" smashed="yes">
 <attribute name="VALUE" x="104.14" y="195.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+9" gate="G$2" x="129.54" y="208.28" smashed="yes">
-<attribute name="VALUE" x="124.46" y="210.82" size="1.778" layer="96"/>
-</instance>
 <instance part="R17" gate="G$1" x="96.52" y="193.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.0214" y="189.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="99.822" y="187.96" size="1.778" layer="96" rot="R90"/>
@@ -10575,6 +10572,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="JMP4" gate="G$1" x="180.34" y="182.88" smashed="yes">
 <attribute name="NAME" x="177.8" y="185.42" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="177.8" y="180.34" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="129.54" y="208.28" smashed="yes">
+<attribute name="VALUE" x="127" y="210.82" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10655,14 +10655,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 <wire x1="294.64" y1="127" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
 <junction x="294.64" y="127"/>
+<wire x1="294.64" y1="127" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <wire x1="276.86" y1="116.84" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="VSYS" class="0">
 <segment>
 <pinref part="C17" gate="A" pin="1"/>
 <wire x1="129.54" y1="203.2" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
@@ -10670,7 +10669,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="129.54" y="203.2"/>
 <pinref part="U8" gate="A" pin="VDD"/>
 <wire x1="134.62" y1="203.2" x2="134.62" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="G$2" pin="VSYS"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$10" class="0">
