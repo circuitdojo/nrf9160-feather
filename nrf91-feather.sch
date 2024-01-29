@@ -1496,7 +1496,7 @@ chip 0402</description>
 <smd name="20" x="-0.75" y="1.55" dx="0.9" dy="0.3" layer="1" rot="R270"/>
 <smd name="21" x="0" y="0" dx="1.8" dy="1.8" layer="1" rot="R270" cream="no"/>
 </package>
-<package name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:footprint:13629242/3" library_version="96" library_locally_modified="yes">
+<package name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:footprint:13629242/3" locally_modified="yes" library_version="102" library_locally_modified="yes">
 <smd name="1" x="-1.2446" y="1" dx="0.2032" dy="0.6096" layer="1" rot="R270"/>
 <smd name="2" x="-1.2446" y="0.5" dx="0.2032" dy="0.6096" layer="1" rot="R270"/>
 <smd name="3" x="-1.2446" y="0" dx="0.2032" dy="0.6096" layer="1" rot="R270"/>
@@ -1555,10 +1555,10 @@ chip 0402</description>
 <wire x1="1.2954" y1="1.2954" x2="-1.2954" y2="1.2954" width="0.1524" layer="51"/>
 <wire x1="-1.2954" y1="1.2954" x2="-1.2954" y2="-1.2954" width="0.1524" layer="51"/>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.33325" y="0.6477"/>
-<vertex x="-0.33325" y="-0.6477"/>
-<vertex x="0.33325" y="-0.6477"/>
-<vertex x="0.33325" y="0.6477"/>
+<vertex x="-0.20075" y="0.4"/>
+<vertex x="-0.20075" y="-0.4"/>
+<vertex x="0.20075" y="-0.4"/>
+<vertex x="0.20075" y="0.4"/>
 </polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="0" y="0" locked="yes" size="0.2" layer="51" ratio="6" align="center">&gt;NAME</text>
@@ -2562,7 +2562,7 @@ chip</description>
 <packageinstance name="CON-HEADER-1X16-MALE-PIN"/>
 </packageinstances>
 </package3d>
-<package3d name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:package:13629266/3" type="box" library_version="96" library_locally_modified="yes">
+<package3d name="DFN10_2P7X2P7-L" urn="urn:adsk.eagle:package:13629266/3" type="box" library_version="102" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DFN10_2P7X2P7-L"/>
 </packageinstances>
@@ -5543,7 +5543,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IC-PCF85063ATL/1" urn="urn:adsk.eagle:component:13629286/5" prefix="U" library_version="96" library_locally_modified="yes">
+<deviceset name="IC-PCF85063ATL/1" urn="urn:adsk.eagle:component:13629286/5" prefix="U" library_version="102" library_locally_modified="yes">
 <gates>
 <gate name="A" symbol="PCF85063ATL/1" x="0" y="0"/>
 </gates>
