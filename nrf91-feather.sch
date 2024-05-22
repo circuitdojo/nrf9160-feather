@@ -6381,7 +6381,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="BOARD_NUMBER" value="BRD-0015"/>
 <attribute name="COMPANY" value="Circuit Dojo"/>
 <attribute name="DOC_NUMBER" value="SCH-0015"/>
-<attribute name="DOC_REV" value="5"/>
+<attribute name="DOC_REV" value="6"/>
 <attribute name="PN" value="PS-NRF91-FEATHER"/>
 <attribute name="TITLE" value="nRF91 Feather"/>
 </attributes>
